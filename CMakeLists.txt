@@ -16,13 +16,15 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3 -march=native -DNDEBUG")
 # Include paths
 include_directories(engine/include)
 
-# Engine static library
 add_library(search_engine STATIC
     engine/src/document.cpp
     engine/src/tokenizer.cpp
-    engine/src/stop_words.cpp
     engine/src/stemmer.cpp
     engine/src/index.cpp
+    engine/src/scorer.cpp
+    engine/src/bm25.cpp
+    engine/src/serializer.cpp
+    engine/src/query_parser.cpp
 )
 
 target_include_directories(search_engine PUBLIC engine/include)
