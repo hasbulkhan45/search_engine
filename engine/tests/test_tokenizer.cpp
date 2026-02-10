@@ -55,9 +55,10 @@ TEST_CASE("Tokenizer custom filter", "[tokenizer]") {
 
 TEST_CASE("Tokenizer stemming", "[tokenizer]") {
     Tokenizer tok;
-    auto tokens = tok.tokenize("running runs runner");
-    // All should stem to "run"
-    for (auto& t : tokens) {
-        REQUIRE(t == "run");
-    }
+    auto tokens = tok.tokenize("running runs connections connecting");
+    REQUIRE(tokens.size() == 4);
+    REQUIRE(tokens[0] == "run");
+    REQUIRE(tokens[1] == "run");
+    REQUIRE(tokens[2] == "connect");
+    REQUIRE(tokens[3] == "connect");
 }
