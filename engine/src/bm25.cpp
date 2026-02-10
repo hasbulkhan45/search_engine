@@ -5,6 +5,12 @@
 
 namespace search {
 
+BM25Scorer::BM25Scorer(const Index& index)
+    : BM25Scorer(index, Params{}) {}
+
+BM25Scorer::BM25Scorer(const Index& index, const Params& params)
+    : index_(index), p_(params) {}
+
 double BM25Scorer::idf(const std::string& term) const {
     size_t N  = index_.doc_count();
     auto*  pl = index_.lookup(term);

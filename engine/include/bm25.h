@@ -16,10 +16,12 @@ public:
     struct Params {
         double k1 = 1.5;
         double b  = 0.75;
+        Params() = default;
+        Params(double k, double b_val) : k1(k), b(b_val) {}
     };
 
-    explicit BM25Scorer(const Index& index, const Params& params = {})
-        : index_(index), p_(params) {}
+    explicit BM25Scorer(const Index& index);
+    BM25Scorer(const Index& index, const Params& params);
 
     ResultList score(const std::vector<std::string>& terms) const;
     double     score_term(const std::string& term,
