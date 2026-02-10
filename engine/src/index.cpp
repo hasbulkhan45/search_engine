@@ -5,9 +5,28 @@
 
 namespace search {
 
+Index::Index() : mu_(std::make_unique<std::mutex>()) {}
+
+Index::Index(Index&& o) noexcept
+    : index_(std::move(o.index_)), docs_(std::move(o.docs_)),
+      total_tokens_(o.total_tokens_), mu_(std::move(o.mu_)) {
+    if (!mu_) mu_ = std::make_unique<std::mutex>();
+}
+
+Index& Index::operator=(Index&& o) noexcept {
+    if (this != &o) {
+        index_ = std::move(o.index_);
+        docs_ = std::move(o.docs_);
+        total_tokens_ = o.total_tokens_;
+        mu_ = std::move(o.mu_);
+        if (!mu_) mu_ = std::make_unique<std::mutex>();
+    }
+    return *this;
+}
+
 void Index::add_document(const Document& doc,
                          const std::vector<std::string>& tokens) {
-    std::lock_guard<std::mutex> lock(mu_);
+    std::lock_guard<std::mutex> lock(*mu_);
     if (docs_.count(doc.id)) return;  // already indexed
     docs_[doc.id] = doc;
     build_postings(doc.id, tokens);
@@ -29,7 +48,7 @@ void Index::build_postings(uint32_t doc_id,
 }
 
 void Index::remove_document(uint32_t doc_id) {
-    std::lock_guard<std::mutex> lock(mu_);
+    std::lock_guard<std::mutex> lock(*mu_);
     docs_.erase(doc_id);
     for (auto& [term, pl] : index_) {
         pl.erase(std::remove_if(pl.begin(), pl.end(),
@@ -39,7 +58,7 @@ void Index::remove_document(uint32_t doc_id) {
 }
 
 void Index::clear() {
-    std::lock_guard<std::mutex> lock(mu_);
+    std::lock_guard<std::mutex> lock(*mu_);
     index_.clear();
     docs_.clear();
     total_tokens_ = 0;

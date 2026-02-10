@@ -5,6 +5,7 @@
 #include <string>
 #include <cstdint>
 #include <mutex>
+#include <memory>
 
 namespace search {
 
@@ -27,7 +28,11 @@ using InvertedIndex = std::unordered_map<std::string, PostingList>;
  */
 class Index {
 public:
-    Index() = default;
+    Index();
+    Index(Index&& o) noexcept;
+    Index& operator=(Index&& o) noexcept;
+    Index(const Index&) = delete;
+    Index& operator=(const Index&) = delete;
 
     /// Add a document with its pre-tokenized terms
     void add_document(const Document& doc,
@@ -63,7 +68,7 @@ private:
     InvertedIndex index_;
     DocumentMap   docs_;
     size_t        total_tokens_ = 0;
-    mutable std::mutex mu_;
+    mutable std::unique_ptr<std::mutex> mu_;
 
     void build_postings(uint32_t doc_id,
                         const std::vector<std::string>& tokens);
