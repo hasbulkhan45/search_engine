@@ -25,6 +25,7 @@ add_library(search_engine STATIC
     engine/src/bm25.cpp
     engine/src/serializer.cpp
     engine/src/query_parser.cpp
+    engine/src/snippet.cpp
 )
 
 target_include_directories(search_engine PUBLIC engine/include)

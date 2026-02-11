@@ -32,3 +32,7 @@ add_test(NAME ScorerTests COMMAND test_scorer)
 add_executable(test_serializer test_serializer.cpp)
 target_link_libraries(test_serializer PRIVATE search_engine Catch2::Catch2WithMain)
 add_test(NAME SerializerTests COMMAND test_serializer)
+
+add_executable(test_snippet test_snippet.cpp)
+target_link_libraries(test_snippet PRIVATE search_engine Catch2::Catch2WithMain)
+add_test(NAME SnippetTests COMMAND test_snippet)
