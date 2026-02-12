@@ -54,3 +54,16 @@ TEST_CASE("Index avg_doc_len > 0", "[index]") {
     auto idx = make_index();
     REQUIRE(idx.avg_doc_len() > 0.0);
 }
+
+TEST_CASE("Index positional phrase search", "[index]") {
+    auto idx = make_index();
+    Tokenizer tok;
+
+    auto matches = idx.phrase_search(tok.tokenize("quick brown"));
+    REQUIRE(matches.size() == 1);
+    REQUIRE(matches[0].doc_id == 1);
+
+    // Reversed order should not match
+    auto no_matches = idx.phrase_search(tok.tokenize("brown quick"));
+    REQUIRE(no_matches.empty());
+}
