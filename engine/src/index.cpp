@@ -111,6 +111,68 @@ PostingList Index::unite(const std::vector<std::string>& terms) const {
     return result;
 }
 
+PostingList Index::phrase_search(const std::vector<std::string>& terms) const {
+    if (terms.empty()) return {};
+    if (terms.size() == 1) {
+        auto* pl = lookup(terms[0]);
+        return pl ? *pl : PostingList{};
+    }
+
+    auto candidates = intersect(terms);
+    if (candidates.empty()) return {};
+
+    PostingList phrase_matches;
+    std::vector<const PostingList*> term_postings;
+    for (const auto& term : terms) {
+        auto* pl = lookup(term);
+        if (!pl) return {};
+        term_postings.push_back(pl);
+    }
+
+    for (const auto& cand : candidates) {
+        uint32_t doc_id = cand.doc_id;
+        std::vector<const std::vector<uint32_t>*> doc_positions;
+        bool all_found = true;
+        for (auto* pl : term_postings) {
+            auto it = std::lower_bound(pl->begin(), pl->end(), doc_id,
+                [](const Posting& p, uint32_t id) { return p.doc_id < id; });
+            if (it != pl->end() && it->doc_id == doc_id) {
+                doc_positions.push_back(&it->positions);
+            } else {
+                all_found = false;
+                break;
+            }
+        }
+        if (!all_found || doc_positions.empty()) continue;
+
+        std::vector<uint32_t> match_positions;
+        const auto& first_positions = *doc_positions[0];
+
+        for (uint32_t pos : first_positions) {
+            bool consecutive = true;
+            for (size_t offset = 1; offset < doc_positions.size(); ++offset) {
+                const auto& next_positions = *doc_positions[offset];
+                uint32_t expected = pos + static_cast<uint32_t>(offset);
+                if (!std::binary_search(next_positions.begin(), next_positions.end(), expected)) {
+                    consecutive = false;
+                    break;
+                }
+            }
+            if (consecutive) {
+                match_positions.push_back(pos);
+            }
+        }
+
+        if (!match_positions.empty()) {
+            Posting p(doc_id, static_cast<uint32_t>(match_positions.size()));
+            p.positions = std::move(match_positions);
+            phrase_matches.push_back(std::move(p));
+        }
+    }
+
+    return phrase_matches;
+}
+
 double Index::avg_doc_len() const {
     if (docs_.empty()) return 0.0;
     return static_cast<double>(total_tokens_) / docs_.size();

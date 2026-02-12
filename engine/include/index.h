@@ -53,6 +53,9 @@ public:
     /// OR-merge posting lists for multiple terms
     PostingList unite(const std::vector<std::string>& terms) const;
 
+    /// Positional phrase search: matches documents where terms appear in exact consecutive order
+    PostingList phrase_search(const std::vector<std::string>& terms) const;
+
     // Stats
     size_t doc_count()   const { return docs_.size(); }
     size_t vocab_size()  const { return index_.size(); }
