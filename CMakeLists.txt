@@ -26,6 +26,7 @@ add_library(search_engine STATIC
     engine/src/serializer.cpp
     engine/src/query_parser.cpp
     engine/src/snippet.cpp
+    engine/src/compression.cpp
 )
 
 target_include_directories(search_engine PUBLIC engine/include)
