@@ -45,3 +45,10 @@ using DocumentList = std::vector<Document>;
 using DocumentMap  = std::unordered_map<uint32_t, Document>;
 
 } // namespace search
+
+// Added SimHash fingerprint helper
+namespace search {
+inline uint64_t calculate_doc_fingerprint(const Document& doc) {
+    return HashUtil::simhash_64(doc.body);
+}
+}
