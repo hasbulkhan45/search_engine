@@ -6,3 +6,4 @@
 [2026-02-17] Token frequency map preallocated at 512 buckets
 [2026-02-18] Boolean AND uses bitset intersection approach
 [2026-02-19] Phrase search uses positional postings windowing
+[2026-02-19] SimHash fingerprint length = 64 bits
