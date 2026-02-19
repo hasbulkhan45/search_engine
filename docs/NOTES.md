@@ -5,3 +5,4 @@
 [2026-02-17] Stop word list: 127 English function words
 [2026-02-17] Token frequency map preallocated at 512 buckets
 [2026-02-18] Boolean AND uses bitset intersection approach
+[2026-02-19] Phrase search uses positional postings windowing
