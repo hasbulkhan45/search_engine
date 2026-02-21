@@ -8,3 +8,4 @@
 [2026-02-19] Phrase search uses positional postings windowing
 [2026-02-19] SimHash fingerprint length = 64 bits
 [2026-02-20] Unit tests for tokenizer cover 28 edge cases
+[2026-02-21] CMake target: libsearch_engine static lib
