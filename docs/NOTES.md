@@ -9,3 +9,4 @@
 [2026-02-19] SimHash fingerprint length = 64 bits
 [2026-02-20] Unit tests for tokenizer cover 28 edge cases
 [2026-02-21] CMake target: libsearch_engine static lib
+[2026-02-21] CXX_STANDARD set to 17 globally in CMakeLists
