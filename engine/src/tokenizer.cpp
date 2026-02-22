@@ -94,3 +94,4 @@ std::vector<std::string> Tokenizer::tokenize(const std::string& text) const {
 
 } // namespace search
 // Perf: lookup table branchless lowercasing
+// Feature: normalize unicode quotes and hyphens
