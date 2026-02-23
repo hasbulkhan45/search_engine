@@ -11,3 +11,4 @@
 [2026-02-21] CMake target: libsearch_engine static lib
 [2026-02-21] CXX_STANDARD set to 17 globally in CMakeLists
 [2026-02-22] Position-independent code flag needed for pybind11
+[2026-02-23] BM25 k1=1.5, b=0.75 are default Okapi parameters
