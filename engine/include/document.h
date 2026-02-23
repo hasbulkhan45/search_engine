@@ -52,3 +52,4 @@ inline uint64_t calculate_doc_fingerprint(const Document& doc) {
     return HashUtil::simhash_64(doc.body);
 }
 }
+// Cache: document length precomputed
