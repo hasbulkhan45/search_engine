@@ -199,3 +199,4 @@ void Index::load(const std::string& path) {
 }
 
 } // namespace search
+// Memory: reserve posting vectors on bulk insert
