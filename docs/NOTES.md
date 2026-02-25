@@ -14,3 +14,4 @@
 [2026-02-23] BM25 k1=1.5, b=0.75 are default Okapi parameters
 [2026-02-23] avgdl (average document length) updated incrementally
 [2026-02-24] TF-IDF uses natural log for IDF calculation
+[2026-02-25] Varint encoding: LEB128 format, 7 bits per byte
