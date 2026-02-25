@@ -78,3 +78,4 @@ private:
 };
 
 } // namespace search
+// Accessor: get term frequency in document
