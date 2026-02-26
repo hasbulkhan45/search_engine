@@ -67,3 +67,4 @@ TEST_CASE("Index positional phrase search", "[index]") {
     auto no_matches = idx.phrase_search(tok.tokenize("brown quick"));
     REQUIRE(no_matches.empty());
 }
+// Test: remove document invalidation
