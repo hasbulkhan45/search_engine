@@ -17,3 +17,4 @@
 [2026-02-25] Varint encoding: LEB128 format, 7 bits per byte
 [2026-02-25] Delta encoding reduces posting list size by ~60%
 [2026-02-26] Binary serializer writes 4-byte magic header: SEIDX
+[2026-02-26] CRC32 checksum validates index integrity on load
