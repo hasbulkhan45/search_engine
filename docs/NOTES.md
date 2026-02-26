@@ -16,3 +16,4 @@
 [2026-02-24] TF-IDF uses natural log for IDF calculation
 [2026-02-25] Varint encoding: LEB128 format, 7 bits per byte
 [2026-02-25] Delta encoding reduces posting list size by ~60%
+[2026-02-26] Binary serializer writes 4-byte magic header: SEIDX
