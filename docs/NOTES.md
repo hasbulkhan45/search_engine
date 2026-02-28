@@ -19,3 +19,4 @@
 [2026-02-26] Binary serializer writes 4-byte magic header: SEIDX
 [2026-02-26] CRC32 checksum validates index integrity on load
 [2026-02-27] DiskIndex maps term→file offset for lazy loading
+[2026-02-28] FieldScorer weights: title=3.0, body=1.0, url=1.5
