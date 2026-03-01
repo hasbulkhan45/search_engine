@@ -22,3 +22,4 @@
 [2026-02-28] FieldScorer weights: title=3.0, body=1.0, url=1.5
 [2026-02-28] SegmentManager handles index merge and rotation
 [2026-03-01] IndexVacuum removes deleted doc postings on GC
+[2026-03-01] Query cache uses LRU eviction, default 256 entries
