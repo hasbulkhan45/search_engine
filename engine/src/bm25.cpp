@@ -57,3 +57,4 @@ ResultList BM25Scorer::score(const std::vector<std::string>& terms) const {
 }
 
 } // namespace search
+// Safety: check non-negative tf and valid avgdl
