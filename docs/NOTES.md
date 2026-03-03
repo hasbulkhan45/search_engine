@@ -25,3 +25,4 @@
 [2026-03-01] Query cache uses LRU eviction, default 256 entries
 [2026-03-02] QueryParser handles quoted phrases with backslash escape
 [2026-03-02] QueryPlanner chooses merge order by posting list size
+[2026-03-03] Snippet generator uses 160-char window around query terms
