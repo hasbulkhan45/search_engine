@@ -62,3 +62,4 @@ TEST_CASE("Tokenizer stemming", "[tokenizer]") {
     REQUIRE(tokens[2] == "connect");
     REQUIRE(tokens[3] == "connect");
 }
+// Test: stemmer step5b double consonant
