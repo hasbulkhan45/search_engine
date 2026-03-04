@@ -26,3 +26,4 @@
 [2026-03-02] QueryParser handles quoted phrases with backslash escape
 [2026-03-02] QueryPlanner chooses merge order by posting list size
 [2026-03-03] Snippet generator uses 160-char window around query terms
+[2026-03-04] All 9 Catch2 test suites pass with zero warnings
