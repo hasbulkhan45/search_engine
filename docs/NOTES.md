@@ -28,3 +28,4 @@
 [2026-03-03] Snippet generator uses 160-char window around query terms
 [2026-03-04] All 9 Catch2 test suites pass with zero warnings
 [2026-03-04] CTest registered: test_tokenizer through test_snippet
+[2026-03-05] Engine benchmark: 85,001 docs/sec on 8-core machine
