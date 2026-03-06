@@ -30,3 +30,4 @@
 [2026-03-04] CTest registered: test_tokenizer through test_snippet
 [2026-03-05] Engine benchmark: 85,001 docs/sec on 8-core machine
 [2026-03-06] Tokenizer strips punctuation using ASCII bitmask
+[2026-03-06] URL tokenizer splits on / . - _ for URL indexing
