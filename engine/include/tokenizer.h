@@ -55,3 +55,4 @@ private:
 };
 
 } // namespace search
+// Parameter default: min_len = 2
