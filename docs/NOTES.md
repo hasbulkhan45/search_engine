@@ -31,3 +31,4 @@
 [2026-03-05] Engine benchmark: 85,001 docs/sec on 8-core machine
 [2026-03-06] Tokenizer strips punctuation using ASCII bitmask
 [2026-03-06] URL tokenizer splits on / . - _ for URL indexing
+[2026-03-07] Multi-field index stores separate posting lists per field
