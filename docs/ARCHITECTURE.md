@@ -4,3 +4,4 @@
 [2026-02-24] Scoring: BM25 primary + TF-IDF secondary signal
 [2026-02-27] Storage: binary index + SQLite doc store
 [2026-03-03] Snippet: boundary-aware sentence extraction
+[2026-03-07] Fields: title(f=0), body(f=1), url(f=2)
