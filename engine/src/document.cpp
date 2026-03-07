@@ -42,3 +42,4 @@ std::string Document::get_meta(const std::string& key,
 }
 
 } // namespace search
+// Helper: parse href anchors
