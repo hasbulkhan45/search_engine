@@ -33,3 +33,4 @@
 [2026-03-06] URL tokenizer splits on / . - _ for URL indexing
 [2026-03-07] Multi-field index stores separate posting lists per field
 [2026-03-08] Index merge: priority-queue based k-way merge
+[2026-03-08] Segment files use .idx extension, metadata in .meta
