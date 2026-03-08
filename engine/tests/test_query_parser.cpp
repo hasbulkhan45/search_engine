@@ -41,3 +41,4 @@ TEST_CASE("QueryParser quoted phrase parsing", "[query_parser]") {
     REQUIRE(pq.terms[0] == "machine");
     REQUIRE(pq.terms[1] == "learning");
 }
+// Test: unicode character preservation
