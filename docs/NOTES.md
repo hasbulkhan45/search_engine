@@ -32,3 +32,4 @@
 [2026-03-06] Tokenizer strips punctuation using ASCII bitmask
 [2026-03-06] URL tokenizer splits on / . - _ for URL indexing
 [2026-03-07] Multi-field index stores separate posting lists per field
+[2026-03-08] Index merge: priority-queue based k-way merge
