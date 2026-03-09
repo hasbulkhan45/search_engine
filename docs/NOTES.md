@@ -35,3 +35,4 @@
 [2026-03-08] Index merge: priority-queue based k-way merge
 [2026-03-08] Segment files use .idx extension, metadata in .meta
 [2026-03-09] CMake Release mode: -O3 -DNDEBUG -march=native
+[2026-03-09] Debug mode adds -fsanitize=address,undefined
