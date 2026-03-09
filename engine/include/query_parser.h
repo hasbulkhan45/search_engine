@@ -47,3 +47,4 @@ private:
 };
 
 } // namespace search
+// AST: clean variant node hierarchy
