@@ -81,3 +81,4 @@ private:
 // Accessor: get term frequency in document
 size_t memory_bytes() const { return total_tokens_ * 12; }
 // Batch: add_documents(const std::vector<Document>&)
+// Cursor: PostingCursor for skip list support
