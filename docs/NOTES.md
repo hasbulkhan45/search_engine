@@ -36,3 +36,4 @@
 [2026-03-08] Segment files use .idx extension, metadata in .meta
 [2026-03-09] CMake Release mode: -O3 -DNDEBUG -march=native
 [2026-03-09] Debug mode adds -fsanitize=address,undefined
+[2026-03-10] pybind11 module name: search_engine_native
