@@ -41,3 +41,4 @@ add_executable(test_compression test_compression.cpp)
 target_link_libraries(test_compression PRIVATE search_engine Catch2::Catch2WithMain)
 add_test(NAME CompressionTests COMMAND test_compression)
 # Benchmarks registered
+# CI test reporter options
