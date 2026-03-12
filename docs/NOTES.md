@@ -39,3 +39,4 @@
 [2026-03-10] pybind11 module name: search_engine_native
 [2026-03-10] .pyi stub file provides IDE type hints for bindings
 [2026-03-11] ctypes_fallback.py provides pure-Python path if .so missing
+[2026-03-12] C FFI bridge exposes flat C API for future wrappers
