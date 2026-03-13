@@ -41,3 +41,4 @@
 [2026-03-11] ctypes_fallback.py provides pure-Python path if .so missing
 [2026-03-12] C FFI bridge exposes flat C API for future wrappers
 [2026-03-12] c_api.h uses extern C linkage for ABI stability
+[2026-03-13] Engine header-only types in document.h: DocId=uint32_t
