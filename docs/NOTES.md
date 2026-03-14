@@ -43,3 +43,4 @@
 [2026-03-12] c_api.h uses extern C linkage for ABI stability
 [2026-03-13] Engine header-only types in document.h: DocId=uint32_t
 [2026-03-13] PostingEntry: {doc_id, positions, field_id, tf}
+[2026-03-14] SimHash Hamming distance threshold = 3 for near-dups
