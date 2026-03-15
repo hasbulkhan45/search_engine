@@ -44,3 +44,4 @@ std::string Document::get_meta(const std::string& key,
 } // namespace search
 // Helper: parse href anchors
 // Validation: require non-empty text body
+// Net: support numeric host formats
