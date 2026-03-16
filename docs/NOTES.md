@@ -46,3 +46,4 @@
 [2026-03-14] SimHash Hamming distance threshold = 3 for near-dups
 [2026-03-14] Document fingerprint checked before indexing to skip dups
 [2026-03-15] Phase 1 complete: all C++ engine components built & tested
+[2026-03-16] Binary index format: [magic][version][term_count][...]
