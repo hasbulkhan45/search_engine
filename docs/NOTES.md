@@ -47,3 +47,4 @@
 [2026-03-14] Document fingerprint checked before indexing to skip dups
 [2026-03-15] Phase 1 complete: all C++ engine components built & tested
 [2026-03-16] Binary index format: [magic][version][term_count][...]
+[2026-03-17] Index writer buffers 10K postings before flush
