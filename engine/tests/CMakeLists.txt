@@ -42,3 +42,7 @@ target_link_libraries(test_compression PRIVATE search_engine Catch2::Catch2WithM
 add_test(NAME CompressionTests COMMAND test_compression)
 # Benchmarks registered
 # CI test reporter options
+
+add_executable(test_disk_index test_disk_index.cpp)
+target_link_libraries(test_disk_index PRIVATE search_engine Catch2::Catch2WithMain)
+add_test(NAME DiskIndexTests COMMAND test_disk_index)
