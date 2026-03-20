@@ -50,3 +50,4 @@
 [2026-03-17] Index writer buffers 10K postings before flush
 [2026-03-17] Index reader uses mmap for read-only fast access
 [2026-03-19] BM25 idf floor at 0.1 to avoid negative scores
+[2026-03-20] Posting list merged with skiplist for O(log n) seeks
