@@ -52,3 +52,4 @@
 [2026-03-19] BM25 idf floor at 0.1 to avoid negative scores
 [2026-03-20] Posting list merged with skiplist for O(log n) seeks
 [2026-03-20] Skiplist interval = sqrt(posting_list_length)
+[2026-03-22] Multi-field scorer: sum(field_weight * field_bm25)
