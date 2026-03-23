@@ -54,3 +54,4 @@
 [2026-03-20] Skiplist interval = sqrt(posting_list_length)
 [2026-03-22] Multi-field scorer: sum(field_weight * field_bm25)
 [2026-03-22] Field weights configurable at query time
+[2026-03-23] Index merge uses external sort for large segment files
