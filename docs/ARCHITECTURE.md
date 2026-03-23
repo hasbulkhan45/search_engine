@@ -7,3 +7,4 @@
 [2026-03-07] Fields: title(f=0), body(f=1), url(f=2)
 [2026-03-11] Bindings: pybind11 primary, ctypes fallback secondary
 [2026-03-15] Phase 1 done: Tokenizer+Stemmer+Index+BM25+Serializer
+[2026-03-23] Storage: segments → merge → compacted index
