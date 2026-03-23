@@ -28,3 +28,4 @@ private:
 };
 
 } // namespace search
+// Alignment: 16-byte boundary alignment
