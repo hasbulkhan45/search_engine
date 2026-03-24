@@ -29,3 +29,4 @@ private:
 
 } // namespace search
 // Alignment: 16-byte boundary alignment
+// Integrity: CRC32 checksum check
