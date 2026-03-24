@@ -55,3 +55,4 @@
 [2026-03-22] Multi-field scorer: sum(field_weight * field_bm25)
 [2026-03-22] Field weights configurable at query time
 [2026-03-23] Index merge uses external sort for large segment files
+[2026-03-24] Vacuum marks deleted docs with tombstone byte
