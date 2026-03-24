@@ -56,3 +56,4 @@
 [2026-03-22] Field weights configurable at query time
 [2026-03-23] Index merge uses external sort for large segment files
 [2026-03-24] Vacuum marks deleted docs with tombstone byte
+[2026-03-24] Post-vacuum, segments are merged and rewritten
