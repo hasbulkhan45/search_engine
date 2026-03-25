@@ -24,3 +24,4 @@ private:
 };
 
 } // namespace search
+// SegmentMeta: timestamp and term count
