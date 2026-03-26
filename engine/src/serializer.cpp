@@ -79,3 +79,4 @@ void Serializer::load(Index& idx, const std::string& path) const {
 }
 
 } // namespace search
+// Optimization: compress posting doc_ids
