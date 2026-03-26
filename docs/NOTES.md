@@ -58,3 +58,4 @@
 [2026-03-24] Vacuum marks deleted docs with tombstone byte
 [2026-03-24] Post-vacuum, segments are merged and rewritten
 [2026-03-25] Varint saves avg 2.1 bytes per posting vs int32
+[2026-03-26] Binary serializer version field allows forward compat
