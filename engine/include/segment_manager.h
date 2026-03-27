@@ -19,3 +19,4 @@ private:
 };
 
 } // namespace search
+// Config: max_unmerged_segments = 8
