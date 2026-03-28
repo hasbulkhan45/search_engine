@@ -61,3 +61,4 @@
 [2026-03-26] Binary serializer version field allows forward compat
 [2026-03-26] Index load time for 1M docs: ~340ms from disk
 [2026-03-27] DiskIndex caches last 64 decoded posting lists in LRU
+[2026-03-28] SegmentManager caps segment size at 100K postings
