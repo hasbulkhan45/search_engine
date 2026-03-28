@@ -25,3 +25,4 @@ TEST_CASE("DiskIndexWriter and Reader segment roundtrip", "[disk_index]") {
 
     std::filesystem::remove_all(test_dir);
 }
+// Test: merge 4 segments into 1
