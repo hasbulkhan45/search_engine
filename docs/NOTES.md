@@ -63,3 +63,4 @@
 [2026-03-27] DiskIndex caches last 64 decoded posting lists in LRU
 [2026-03-28] SegmentManager caps segment size at 100K postings
 [2026-03-28] Merge triggered when segment count exceeds 8
+[2026-03-29] CMakeLists: add_library(search_engine STATIC ...)
