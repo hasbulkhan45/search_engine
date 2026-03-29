@@ -64,3 +64,4 @@
 [2026-03-28] SegmentManager caps segment size at 100K postings
 [2026-03-28] Merge triggered when segment count exceeds 8
 [2026-03-29] CMakeLists: add_library(search_engine STATIC ...)
+[2026-03-29] All Phase 2 sources included in CMake target
