@@ -21,3 +21,4 @@ private:
 };
 
 } // namespace search
+// Counter: track occurrences per field
