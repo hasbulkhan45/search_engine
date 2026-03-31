@@ -9,3 +9,4 @@
 [2026-03-15] Phase 1 done: Tokenizer+Stemmer+Index+BM25+Serializer
 [2026-03-23] Storage: segments → merge → compacted index
 [2026-03-27] DiskIndex: file-backed with LRU decode cache
+[2026-03-31] Phase 2 done: serializer+DiskIndex+FieldScorer+Vacuum
