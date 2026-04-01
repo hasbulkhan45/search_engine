@@ -10,3 +10,4 @@ public:
 };
 
 } // namespace search
+// Vacuum: bloom filter for tombstone ids
