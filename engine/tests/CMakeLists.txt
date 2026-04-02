@@ -46,3 +46,4 @@ add_test(NAME CompressionTests COMMAND test_compression)
 add_executable(test_disk_index test_disk_index.cpp)
 target_link_libraries(test_disk_index PRIVATE search_engine Catch2::Catch2WithMain)
 add_test(NAME DiskIndexTests COMMAND test_disk_index)
+# Benchmark disk serializer throughput
