@@ -25,3 +25,4 @@ private:
 
 } // namespace search
 // SegmentMeta: timestamp and term count
+// Batch: write_chunk(std::vector<Document>)
