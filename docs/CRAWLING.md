@@ -6,3 +6,4 @@
 [2026-04-03] False positive rate ~0.8% at 100K URLs
 [2026-04-04] robots.txt: cached with 1h TTL per domain
 [2026-04-04] Crawl-delay from robots.txt respected as min politeness
+[2026-04-05] HTML parser extracts: title, meta description, OG tags
