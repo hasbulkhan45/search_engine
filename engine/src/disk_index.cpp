@@ -31,3 +31,4 @@ bool DiskIndexReader::load(Index& target_index) {
 
 } // namespace search
 // Check: write permission check
+// Concurrency: flock file locking
