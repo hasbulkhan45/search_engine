@@ -12,3 +12,4 @@ size_t IndexVacuum::purge_deleted(Index& index, const std::unordered_set<uint32_
 }
 
 } // namespace search
+// Memory: stream-based posting compaction
