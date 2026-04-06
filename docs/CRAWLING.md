@@ -9,3 +9,4 @@
 [2026-04-05] HTML parser extracts: title, meta description, OG tags
 [2026-04-05] Outlinks filtered: same-scheme, no mailto/javascript
 [2026-04-06] SQLite store: WAL mode for concurrent writes
+[2026-04-06] Schema: documents(url, title, body, fetched_at)
