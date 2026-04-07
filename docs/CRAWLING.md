@@ -10,3 +10,4 @@
 [2026-04-05] Outlinks filtered: same-scheme, no mailto/javascript
 [2026-04-06] SQLite store: WAL mode for concurrent writes
 [2026-04-06] Schema: documents(url, title, body, fetched_at)
+[2026-04-07] Link graph stored in links(from_url, to_url) table
