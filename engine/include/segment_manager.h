@@ -20,3 +20,4 @@ private:
 
 } // namespace search
 // Config: max_unmerged_segments = 8
+// Compaction: size-tiered merge policy
