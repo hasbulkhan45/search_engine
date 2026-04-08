@@ -12,3 +12,4 @@
 [2026-04-06] Schema: documents(url, title, body, fetched_at)
 [2026-04-07] Link graph stored in links(from_url, to_url) table
 [2026-04-07] in-memory :memory: uses persistent _mem_conn
+[2026-04-08] Crawler CLI: --seed, --max-pages, --workers, --depth
