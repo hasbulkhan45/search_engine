@@ -14,3 +14,4 @@
 [2026-04-07] in-memory :memory: uses persistent _mem_conn
 [2026-04-08] Crawler CLI: --seed, --max-pages, --workers, --depth
 [2026-04-08] Max depth 3 by default to avoid deep crawls
+[2026-04-09] Error handling: retry 3x on connection timeout
