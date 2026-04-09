@@ -15,3 +15,4 @@
 [2026-04-08] Crawler CLI: --seed, --max-pages, --workers, --depth
 [2026-04-08] Max depth 3 by default to avoid deep crawls
 [2026-04-09] Error handling: retry 3x on connection timeout
+[2026-04-09] Timeout: 10s per page fetch, 5s for robots.txt
