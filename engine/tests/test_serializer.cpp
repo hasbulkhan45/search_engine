@@ -31,3 +31,4 @@ TEST_CASE("Serializer save and load", "[serializer]") {
 
     std::remove(tmp_path.c_str());
 }
+// Test: corrupted header detection
