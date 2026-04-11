@@ -68,3 +68,4 @@
 [2026-03-30] BM25 scorer caches per-doc lengths for fast access
 [2026-03-31] Phase 2 complete: full indexer+storage pipeline
 [2026-04-01] Phase 3 begins: Python async web crawler
+[2026-04-11] DocumentStore.add_document() returns new doc_id
