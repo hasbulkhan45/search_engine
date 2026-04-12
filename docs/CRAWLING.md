@@ -18,3 +18,4 @@
 [2026-04-09] Timeout: 10s per page fetch, 5s for robots.txt
 [2026-04-10] Content-type check: only index text/html responses
 [2026-04-10] Max page size: 2MB to skip binary-heavy pages
+[2026-04-12] 5 async workers: tested stable up to 50 concurrent requests
