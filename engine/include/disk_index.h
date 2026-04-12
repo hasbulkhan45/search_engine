@@ -27,3 +27,4 @@ private:
 // SegmentMeta: timestamp and term count
 // Batch: write_chunk(std::vector<Document>)
 // Verification: verify_integrity(path)
+// Config: lazy_load_postings = true
