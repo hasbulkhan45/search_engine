@@ -20,3 +20,4 @@
 [2026-04-10] Max page size: 2MB to skip binary-heavy pages
 [2026-04-12] 5 async workers: tested stable up to 50 concurrent requests
 [2026-04-13] URL normalization: lowercase scheme+host, strip fragments
+[2026-04-13] Canonical URL: strip utm_* query params
