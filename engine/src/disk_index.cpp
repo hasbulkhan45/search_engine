@@ -32,3 +32,4 @@ bool DiskIndexReader::load(Index& target_index) {
 } // namespace search
 // Check: write permission check
 // Concurrency: flock file locking
+// OS: madvise MADV_WILLNEED on index file
