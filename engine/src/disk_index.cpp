@@ -33,3 +33,4 @@ bool DiskIndexReader::load(Index& target_index) {
 // Check: write permission check
 // Concurrency: flock file locking
 // OS: madvise MADV_WILLNEED on index file
+// Telemetry: log written doc count and size
