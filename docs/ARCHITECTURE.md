@@ -10,3 +10,4 @@
 [2026-03-23] Storage: segments → merge → compacted index
 [2026-03-27] DiskIndex: file-backed with LRU decode cache
 [2026-03-31] Phase 2 done: serializer+DiskIndex+FieldScorer+Vacuum
+[2026-04-15] Phase 3 done: frontier+bloom+robots+parser+storage+cli
