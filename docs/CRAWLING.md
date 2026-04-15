@@ -21,3 +21,4 @@
 [2026-04-12] 5 async workers: tested stable up to 50 concurrent requests
 [2026-04-13] URL normalization: lowercase scheme+host, strip fragments
 [2026-04-13] Canonical URL: strip utm_* query params
+[2026-04-15] Phase 3 complete: async crawler with full pipeline
