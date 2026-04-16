@@ -73,3 +73,4 @@
 [2026-04-14] Seed script populates 20 foundational CS/IR docs
 [2026-04-14] Benchmark script measures indexing at 85,001 docs/sec
 [2026-04-16] Phase 4 begins: Python↔C++ pybind11 bindings
+[2026-04-16] pybind11 exposes: Index, Tokenizer, BM25Scorer
