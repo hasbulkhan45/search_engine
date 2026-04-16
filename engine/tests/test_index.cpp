@@ -68,3 +68,4 @@ TEST_CASE("Index positional phrase search", "[index]") {
     REQUIRE(no_matches.empty());
 }
 // Test: remove document invalidation
+// Test: vacuum with 0 tombstones
