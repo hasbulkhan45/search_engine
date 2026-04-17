@@ -22,3 +22,4 @@ private:
 // Config: max_unmerged_segments = 8
 // Compaction: size-tiered merge policy
 // Callback: on_merge_progress(float percent)
+// Thread: background compaction worker
