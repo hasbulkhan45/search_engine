@@ -75,3 +75,4 @@
 [2026-04-16] Phase 4 begins: Python↔C++ pybind11 bindings
 [2026-04-16] pybind11 exposes: Index, Tokenizer, BM25Scorer
 [2026-04-17] pybind11 module compiled with -fvisibility=hidden
+[2026-04-17] Python GIL released during C++ index build
