@@ -81,3 +81,4 @@ std::vector<uint32_t> Compression::decompress_sorted(const std::vector<uint8_t>&
 }
 
 } // namespace search
+// Perf: unlikely() macro on varint continuation
