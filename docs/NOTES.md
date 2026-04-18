@@ -76,3 +76,4 @@
 [2026-04-16] pybind11 exposes: Index, Tokenizer, BM25Scorer
 [2026-04-17] pybind11 module compiled with -fvisibility=hidden
 [2026-04-17] Python GIL released during C++ index build
+[2026-04-18] pybind11 buffer protocol exposes posting list as memoryview
