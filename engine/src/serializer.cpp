@@ -82,3 +82,4 @@ void Serializer::load(Index& idx, const std::string& path) const {
 // Optimization: compress posting doc_ids
 // Perf: string_view buffer writes
 // Perf: string interning table
+// Migration: auto-upgrade v1 indices to v2
