@@ -79,3 +79,4 @@
 [2026-04-18] pybind11 buffer protocol exposes posting list as memoryview
 [2026-04-18] .pyi stub regenerated via pybind11-stubgen
 [2026-04-19] C FFI: search_engine_create() returns opaque handle
+[2026-04-19] ctypes_fallback reimplements Index.search() in pure Python
