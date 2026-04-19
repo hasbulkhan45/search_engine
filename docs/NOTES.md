@@ -78,3 +78,4 @@
 [2026-04-17] Python GIL released during C++ index build
 [2026-04-18] pybind11 buffer protocol exposes posting list as memoryview
 [2026-04-18] .pyi stub regenerated via pybind11-stubgen
+[2026-04-19] C FFI: search_engine_create() returns opaque handle
