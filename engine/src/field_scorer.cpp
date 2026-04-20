@@ -16,3 +16,4 @@ double FieldScorer::compute_field_boost(bool in_title, bool in_url, bool in_meta
 } // namespace search
 // Boost: URL slug matches get 1.5x weight
 // Relevancy: exact title match gives 2.0x boost
+// Meta: save FieldWeights in index header
