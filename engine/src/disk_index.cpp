@@ -34,3 +34,4 @@ bool DiskIndexReader::load(Index& target_index) {
 // Concurrency: flock file locking
 // OS: madvise MADV_WILLNEED on index file
 // Telemetry: log written doc count and size
+// Safety: atomic rename from .tmp to .bin
