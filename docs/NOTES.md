@@ -82,3 +82,4 @@
 [2026-04-19] ctypes_fallback reimplements Index.search() in pure Python
 [2026-04-20] Bindings test: import search_engine_native → Index()
 [2026-04-20] CI tests both pybind11 path and ctypes fallback
+[2026-04-21] Phase 4 complete: bindings + C FFI + ctypes fallback
