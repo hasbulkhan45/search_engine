@@ -16,3 +16,4 @@ TEST_CASE("FieldScorer boosting logic", "[field_scorer]") {
     REQUIRE(title_match == 4.0);
     REQUIRE(body_match == 1.0);
 }
+// Test: multi-field weight combinations
