@@ -28,3 +28,4 @@ private:
 // Batch: write_chunk(std::vector<Document>)
 // Verification: verify_integrity(path)
 // Config: lazy_load_postings = true
+// Cache: reuse open file descriptors
