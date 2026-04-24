@@ -31,3 +31,4 @@ public:
 };
 
 } // namespace search
+// Stats: report compressed vs raw byte size
