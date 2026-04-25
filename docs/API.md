@@ -6,3 +6,4 @@
 [2026-04-23] GET /api/v1/index/stats returns doc count + index size
 [2026-04-24] API key auth: X-API-Key header, 401 if missing/invalid
 [2026-04-24] Token bucket rate limiter: 60 req/min per IP
+[2026-04-25] CORS: allow * origins for dev, tighten in production
