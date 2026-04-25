@@ -53,3 +53,4 @@ set_target_properties(search_engine_native PROPERTIES
 # Tests
 enable_testing()
 add_subdirectory(engine/tests)
+# Phase 2 finalized
