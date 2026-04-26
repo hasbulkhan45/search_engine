@@ -9,3 +9,4 @@
 [2026-04-25] CORS: allow * origins for dev, tighten in production
 [2026-04-25] OpenAPI docs at /docs, ReDoc at /redoc
 [2026-04-26] Search response includes: results, total, time_ms, suggestions
+[2026-04-26] Pagination: page=N&limit=10, max limit=100
