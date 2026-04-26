@@ -8,3 +8,4 @@
 [2026-04-24] Token bucket rate limiter: 60 req/min per IP
 [2026-04-25] CORS: allow * origins for dev, tighten in production
 [2026-04-25] OpenAPI docs at /docs, ReDoc at /redoc
+[2026-04-26] Search response includes: results, total, time_ms, suggestions
