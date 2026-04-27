@@ -11,3 +11,4 @@
 [2026-04-26] Search response includes: results, total, time_ms, suggestions
 [2026-04-26] Pagination: page=N&limit=10, max limit=100
 [2026-04-27] Error response: {error: str, status_code: int}
+[2026-04-27] 422 Unprocessable on invalid query params
