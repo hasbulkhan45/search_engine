@@ -4,3 +4,4 @@
 [2026-03-25] Compression: delta enc reduces 10M postings from 80MB to 28MB
 [2026-03-30] Avg BM25 score calc: 95ns per doc per term
 [2026-04-12] Crawler: ~5 pages/sec with 1s politeness delay
+[2026-04-28] API: median search response time 3.4ms on local
