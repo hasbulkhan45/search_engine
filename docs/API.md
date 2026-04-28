@@ -12,3 +12,4 @@
 [2026-04-26] Pagination: page=N&limit=10, max limit=100
 [2026-04-27] Error response: {error: str, status_code: int}
 [2026-04-27] 422 Unprocessable on invalid query params
+[2026-04-28] /health returns uptime, version, index doc count
