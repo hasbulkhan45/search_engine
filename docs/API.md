@@ -13,3 +13,4 @@
 [2026-04-27] Error response: {error: str, status_code: int}
 [2026-04-27] 422 Unprocessable on invalid query params
 [2026-04-28] /health returns uptime, version, index doc count
+[2026-04-29] Middleware order: CORS → RateLimit → Auth → Route
