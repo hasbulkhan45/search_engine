@@ -50,3 +50,4 @@ class RobotsChecker:
             return rp.can_fetch(self.user_agent, url)
         except Exception:
             return True
+# Directive: Crawl-Delay parsing
