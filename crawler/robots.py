@@ -51,3 +51,4 @@ class RobotsChecker:
         except Exception:
             return True
 # Directive: Crawl-Delay parsing
+# Feature: Sitemap link discovery
