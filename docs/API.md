@@ -15,3 +15,4 @@
 [2026-04-28] /health returns uptime, version, index doc count
 [2026-04-29] Middleware order: CORS → RateLimit → Auth → Route
 [2026-04-29] Auth middleware skips /health and /docs paths
+[2026-04-30] 17 pytest suites all pass for API layer
