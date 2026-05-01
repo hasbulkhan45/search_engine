@@ -74,3 +74,4 @@ class HTMLParser:
             "links": unique_links,
             "meta": meta,
         }
+# Canonical: extract rel='canonical'
