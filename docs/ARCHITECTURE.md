@@ -12,3 +12,4 @@
 [2026-03-31] Phase 2 done: serializer+DiskIndex+FieldScorer+Vacuum
 [2026-04-15] Phase 3 done: frontier+bloom+robots+parser+storage+cli
 [2026-04-21] Phase 4 done: pybind11+c_api+ctypes+stubs
+[2026-05-01] Phase 5 done: REST API+auth+rate-limit+OpenAPI
