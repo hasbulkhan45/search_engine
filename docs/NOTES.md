@@ -84,3 +84,4 @@
 [2026-04-20] CI tests both pybind11 path and ctypes fallback
 [2026-04-21] Phase 4 complete: bindings + C FFI + ctypes fallback
 [2026-05-02] Phase 6 begins: ML ranking layer
+[2026-05-02] PageRank: power iteration converges at ~50 iterations
