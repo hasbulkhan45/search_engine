@@ -75,3 +75,4 @@ class HTMLParser:
             "meta": meta,
         }
 # Canonical: extract rel='canonical'
+# Social: extract og:image, og:description
