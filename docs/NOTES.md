@@ -85,3 +85,4 @@
 [2026-04-21] Phase 4 complete: bindings + C FFI + ctypes fallback
 [2026-05-02] Phase 6 begins: ML ranking layer
 [2026-05-02] PageRank: power iteration converges at ~50 iterations
+[2026-05-03] PageRank damping factor = 0.85 (Brin & Page default)
