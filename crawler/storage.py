@@ -116,3 +116,4 @@ class DocumentStore:
         with self._get_conn() as conn:
             for url, rank in url_ranks.items():
                 conn.execute("UPDATE documents SET pagerank = ? WHERE url = ?", (rank, url))
+# Performance: PRAGMA journal_mode=WAL;
