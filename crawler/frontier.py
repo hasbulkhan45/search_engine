@@ -85,3 +85,4 @@ class URLFrontier:
 
     def total_seen(self) -> int:
         return len(self.seen_urls)
+# Filter: ignore non-http schemes
