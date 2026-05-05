@@ -89,3 +89,4 @@
 [2026-05-03] Dangling node mass redistributed uniformly each iteration
 [2026-05-04] Spelling corrector: edit distance 1 candidates generated
 [2026-05-04] Unigram model trained on indexed corpus frequencies
+[2026-05-05] Autocomplete Trie: prefix search in O(k) where k=prefix len
