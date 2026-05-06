@@ -91,3 +91,4 @@
 [2026-05-04] Unigram model trained on indexed corpus frequencies
 [2026-05-05] Autocomplete Trie: prefix search in O(k) where k=prefix len
 [2026-05-05] Suggester returns top-5 completions by frequency rank
+[2026-05-06] ML Reranker combines: BM25, PageRank, title_match, url_depth
