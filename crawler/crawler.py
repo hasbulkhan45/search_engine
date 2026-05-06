@@ -110,3 +110,4 @@ class WebCrawler:
                     on_page_crawled(result)
 
         return pages_crawled
+# Config: customizable user agent string
