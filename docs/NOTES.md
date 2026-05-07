@@ -93,3 +93,4 @@
 [2026-05-05] Suggester returns top-5 completions by frequency rank
 [2026-05-06] ML Reranker combines: BM25, PageRank, title_match, url_depth
 [2026-05-06] Reranker weights: BM25=0.6, PageRank=0.2, title=0.15, url=0.05
+[2026-05-07] PageRank scores normalized to [0, 1] before combining
