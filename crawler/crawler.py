@@ -111,3 +111,4 @@ class WebCrawler:
 
         return pages_crawled
 # Config: customizable user agent string
+# Resilience: retry on network timeouts
