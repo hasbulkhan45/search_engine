@@ -5,3 +5,4 @@
 [2026-03-30] Avg BM25 score calc: 95ns per doc per term
 [2026-04-12] Crawler: ~5 pages/sec with 1s politeness delay
 [2026-04-28] API: median search response time 3.4ms on local
+[2026-05-07] PageRank on 10K nodes: converges in 47 iterations, 12ms
