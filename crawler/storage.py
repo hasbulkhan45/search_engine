@@ -118,3 +118,4 @@ class DocumentStore:
                 conn.execute("UPDATE documents SET pagerank = ? WHERE url = ?", (rank, url))
 # Performance: PRAGMA journal_mode=WAL;
 # Batch: insert_many_documents()
+# Graph: count outlinks per document
