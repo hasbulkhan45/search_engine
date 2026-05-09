@@ -96,3 +96,4 @@
 [2026-05-07] PageRank scores normalized to [0, 1] before combining
 [2026-05-08] Spelling correction only applied when query has no results
 [2026-05-08] Did-you-mean suggestion shown if corrected query differs
+[2026-05-09] Trie supports unicode via UTF-8 character boundaries
