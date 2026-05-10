@@ -98,3 +98,4 @@
 [2026-05-08] Did-you-mean suggestion shown if corrected query differs
 [2026-05-09] Trie supports unicode via UTF-8 character boundaries
 [2026-05-09] Autocomplete updates on each keystroke with 150ms debounce
+[2026-05-10] Phase 6 complete: PageRank+spelling+autocomplete+ML rerank
