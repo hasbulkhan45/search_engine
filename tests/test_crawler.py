@@ -74,3 +74,4 @@ def test_document_store_sqlite():
         if os.path.exists(db_path):
             os.remove(db_path)
 # Test: canonical link tag precedence
+# Test: HTML entity decoding
