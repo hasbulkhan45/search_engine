@@ -113,3 +113,4 @@ class WebCrawler:
 # Config: customizable user agent string
 # Resilience: retry on network timeouts
 # Safety: reject images, PDFs, videos
+# Event: on_fetch_error(url, exc)
