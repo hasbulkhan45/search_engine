@@ -119,3 +119,4 @@ class DocumentStore:
 # Performance: PRAGMA journal_mode=WAL;
 # Batch: insert_many_documents()
 # Graph: count outlinks per document
+# Metadata: store http_status
