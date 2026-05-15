@@ -114,3 +114,4 @@ class WebCrawler:
 # Resilience: retry on network timeouts
 # Safety: reject images, PDFs, videos
 # Event: on_fetch_error(url, exc)
+# Config: max_redirects = 5
