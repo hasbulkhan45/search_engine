@@ -41,3 +41,4 @@ class BloomFilter:
             if not (self.bit_array[byte_index] & (1 << bit_offset)):
                 return False
         return True
+# Persistence: save/load bit array
