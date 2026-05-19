@@ -120,3 +120,4 @@ class DocumentStore:
 # Batch: insert_many_documents()
 # Graph: count outlinks per document
 # Metadata: store http_status
+# Maintenance: vacuum_database()
