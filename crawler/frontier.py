@@ -88,3 +88,4 @@ class URLFrontier:
 # Filter: ignore non-http schemes
 # Politeness: token bucket per netloc
 # Normalizer: handle //example.com/path
+# Security: domain blacklist check
