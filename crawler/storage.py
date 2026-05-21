@@ -121,3 +121,4 @@ class DocumentStore:
 # Graph: count outlinks per document
 # Metadata: store http_status
 # Maintenance: vacuum_database()
+# Dedup: content SHA256 comparison
