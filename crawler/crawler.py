@@ -116,3 +116,4 @@ class WebCrawler:
 # Event: on_fetch_error(url, exc)
 # Config: max_redirects = 5
 # Stats: track total bytes and speed
+# Logging: structured page crawl log
