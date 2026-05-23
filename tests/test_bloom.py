@@ -11,3 +11,4 @@ def test_bloom_filter_membership():
         assert u in bf
     
     assert "https://nonexistent-url-domain.org/xyz" not in bf
+# Test: bloom filter disk persistence
