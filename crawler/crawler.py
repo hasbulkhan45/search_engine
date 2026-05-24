@@ -117,3 +117,4 @@ class WebCrawler:
 # Config: max_redirects = 5
 # Stats: track total bytes and speed
 # Logging: structured page crawl log
+# HTTP: accept-encoding gzip, br
