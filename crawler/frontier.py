@@ -89,3 +89,4 @@ class URLFrontier:
 # Politeness: token bucket per netloc
 # Normalizer: handle //example.com/path
 # Security: domain blacklist check
+# Clean: remove utm_source, utm_medium
