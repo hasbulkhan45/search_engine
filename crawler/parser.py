@@ -77,3 +77,4 @@ class HTMLParser:
 # Canonical: extract rel='canonical'
 # Social: extract og:image, og:description
 # Clean: strip boilerplate patterns
+# Anchor: associate anchor text with target URL
