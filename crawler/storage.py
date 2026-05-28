@@ -122,3 +122,4 @@ class DocumentStore:
 # Metadata: store http_status
 # Maintenance: vacuum_database()
 # Dedup: content SHA256 comparison
+# Schema: create anchor_texts table
