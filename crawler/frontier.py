@@ -90,3 +90,4 @@ class URLFrontier:
 # Normalizer: handle //example.com/path
 # Security: domain blacklist check
 # Clean: remove utm_source, utm_medium
+# Budget: max_pages_per_domain limit
