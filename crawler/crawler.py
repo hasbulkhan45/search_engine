@@ -118,3 +118,4 @@ class WebCrawler:
 # Stats: track total bytes and speed
 # Logging: structured page crawl log
 # HTTP: accept-encoding gzip, br
+# Politeness: random jitter (+/- 20%)
