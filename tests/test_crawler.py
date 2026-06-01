@@ -75,3 +75,4 @@ def test_document_store_sqlite():
             os.remove(db_path)
 # Test: canonical link tag precedence
 # Test: HTML entity decoding
+# Test: strip utm query parameters
