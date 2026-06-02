@@ -76,3 +76,4 @@ def test_document_store_sqlite():
 # Test: canonical link tag precedence
 # Test: HTML entity decoding
 # Test: strip utm query parameters
+# Suite: crawler comprehensive tests
