@@ -119,3 +119,4 @@ class WebCrawler:
 # Logging: structured page crawl log
 # HTTP: accept-encoding gzip, br
 # Politeness: random jitter (+/- 20%)
+# Error: differentiate client vs server errors
