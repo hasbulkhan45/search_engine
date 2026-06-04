@@ -78,3 +78,4 @@ class HTMLParser:
 # Social: extract og:image, og:description
 # Clean: strip boilerplate patterns
 # Anchor: associate anchor text with target URL
+# Title: secondary fallback to h2
