@@ -101,3 +101,4 @@
 [2026-05-10] Phase 6 complete: PageRank+spelling+autocomplete+ML rerank
 [2026-06-11] Phase 7 begins: frontend UI
 [2026-06-11] UI: dark/light mode CSS with CSS custom properties
+[2026-06-12] Glassmorphism: backdrop-filter blur(12px) on result cards
