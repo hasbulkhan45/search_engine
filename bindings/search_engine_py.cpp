@@ -94,3 +94,4 @@ PYBIND11_MODULE(search_engine_native, m) {
         .def(py::init<size_t>(), py::arg("max_snippet_length") = 160)
         .def("generate", &SnippetGenerator::generate, py::arg("document_text"), py::arg("query_terms"));
 }
+// Bind: QueryCache
