@@ -106,3 +106,4 @@
 [2026-06-13] Search bar uses debounced input for autocomplete (150ms)
 [2026-06-13] Autocomplete dropdown shows max 8 suggestions
 [2026-06-14] Pagination: prev/next buttons + page number display
+[2026-06-14] Result card: title, URL breadcrumb, snippet with highlights
