@@ -107,3 +107,4 @@
 [2026-06-13] Autocomplete dropdown shows max 8 suggestions
 [2026-06-14] Pagination: prev/next buttons + page number display
 [2026-06-14] Result card: title, URL breadcrumb, snippet with highlights
+[2026-06-15] Snippet highlights: <mark> tags with yellow background
