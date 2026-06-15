@@ -48,3 +48,4 @@ private:
 
 } // namespace search
 // AST: clean variant node hierarchy
+// Filter: remove duplicate doc_ids
