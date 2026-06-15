@@ -108,3 +108,4 @@
 [2026-06-14] Pagination: prev/next buttons + page number display
 [2026-06-14] Result card: title, URL breadcrumb, snippet with highlights
 [2026-06-15] Snippet highlights: <mark> tags with yellow background
+[2026-06-15] Empty state: magnifier icon + 'No results found' message
