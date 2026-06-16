@@ -95,3 +95,4 @@ PYBIND11_MODULE(search_engine_native, m) {
         .def("generate", &SnippetGenerator::generate, py::arg("document_text"), py::arg("query_terms"));
 }
 // Bind: QueryCache
+// Feature: slice results by offset/limit
