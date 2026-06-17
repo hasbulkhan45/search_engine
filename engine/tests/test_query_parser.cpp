@@ -42,3 +42,4 @@ TEST_CASE("QueryParser quoted phrase parsing", "[query_parser]") {
     REQUIRE(pq.terms[1] == "learning");
 }
 // Test: unicode character preservation
+// Test: query cache capacity limit
