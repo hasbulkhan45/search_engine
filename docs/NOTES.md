@@ -111,3 +111,4 @@
 [2026-06-15] Empty state: magnifier icon + 'No results found' message
 [2026-06-16] Loading state: skeleton cards with CSS animation
 [2026-06-16] Error state: red alert banner with retry button
+[2026-06-17] Dashboard shows: doc count, query count, index size
