@@ -112,3 +112,4 @@
 [2026-06-16] Loading state: skeleton cards with CSS animation
 [2026-06-16] Error state: red alert banner with retry button
 [2026-06-17] Dashboard shows: doc count, query count, index size
+[2026-06-17] Dashboard polls /api/v1/index/stats every 30s
