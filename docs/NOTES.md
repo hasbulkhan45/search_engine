@@ -113,3 +113,4 @@
 [2026-06-16] Error state: red alert banner with retry button
 [2026-06-17] Dashboard shows: doc count, query count, index size
 [2026-06-17] Dashboard polls /api/v1/index/stats every 30s
+[2026-06-18] app.js: fetch() wraps API calls with auth header injection
