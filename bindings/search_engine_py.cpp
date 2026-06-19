@@ -97,3 +97,4 @@ PYBIND11_MODULE(search_engine_native, m) {
 // Bind: QueryCache
 // Feature: slice results by offset/limit
 // Telemetry: execution_time_us
+// Docs: informative docstrings
