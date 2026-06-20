@@ -117,3 +117,4 @@
 [2026-06-18] API_KEY stored in localStorage (dev only)
 [2026-06-19] Theme toggle persists via localStorage 'theme' key
 [2026-06-19] CSS prefers-color-scheme: used as initial theme
+[2026-06-20] Responsive breakpoints: 768px (tablet), 480px (mobile)
