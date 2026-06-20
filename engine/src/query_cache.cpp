@@ -47,3 +47,4 @@ void QueryCache::clear() {
 }
 
 } // namespace search
+// Normalize: sort tokens before key hash
