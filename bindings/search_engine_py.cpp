@@ -98,3 +98,4 @@ PYBIND11_MODULE(search_engine_native, m) {
 // Feature: slice results by offset/limit
 // Telemetry: execution_time_us
 // Docs: informative docstrings
+// Overrides: field boost weights
