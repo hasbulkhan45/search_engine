@@ -121,3 +121,4 @@
 [2026-06-20] Mobile: full-width search bar, single-column results
 [2026-06-21] Font: Inter from Google Fonts, weights 400/500/600/700
 [2026-06-21] Line height: 1.6 for body text readability
+[2026-06-22] Search result: max 2 lines snippet, ellipsis overflow
