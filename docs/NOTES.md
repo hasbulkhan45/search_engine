@@ -122,3 +122,4 @@
 [2026-06-21] Font: Inter from Google Fonts, weights 400/500/600/700
 [2026-06-21] Line height: 1.6 for body text readability
 [2026-06-22] Search result: max 2 lines snippet, ellipsis overflow
+[2026-06-22] URL breadcrumb: max 60 chars, truncated with …
