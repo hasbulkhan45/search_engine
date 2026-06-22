@@ -43,3 +43,4 @@ TEST_CASE("QueryParser quoted phrase parsing", "[query_parser]") {
 }
 // Test: unicode character preservation
 // Test: query cache capacity limit
+// Test: least-frequent-first order
