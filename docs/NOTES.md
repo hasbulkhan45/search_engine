@@ -123,3 +123,4 @@
 [2026-06-21] Line height: 1.6 for body text readability
 [2026-06-22] Search result: max 2 lines snippet, ellipsis overflow
 [2026-06-22] URL breadcrumb: max 60 chars, truncated with …
+[2026-06-23] Query time shown in ms below result count
