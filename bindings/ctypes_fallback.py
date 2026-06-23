@@ -31,3 +31,4 @@ class NativeCEngine:
     def __del__(self):
         if self.lib and self._handle:
             self.lib.search_engine_index_free(self._handle)
+# Helper: paginate_results()
