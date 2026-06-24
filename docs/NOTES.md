@@ -125,3 +125,4 @@
 [2026-06-22] URL breadcrumb: max 60 chars, truncated with …
 [2026-06-23] Query time shown in ms below result count
 [2026-06-23] Result count: '42 results (3.4 ms)' format
+[2026-06-24] Keyboard nav: arrow keys cycle autocomplete, Enter submits
