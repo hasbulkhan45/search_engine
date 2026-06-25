@@ -99,3 +99,4 @@ PYBIND11_MODULE(search_engine_native, m) {
 // Telemetry: execution_time_us
 // Docs: informative docstrings
 // Overrides: field boost weights
+// Pickle: Document __getstate__/__setstate__
