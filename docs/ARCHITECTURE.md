@@ -14,3 +14,4 @@
 [2026-04-21] Phase 4 done: pybind11+c_api+ctypes+stubs
 [2026-05-01] Phase 5 done: REST API+auth+rate-limit+OpenAPI
 [2026-05-10] Phase 6 done: pagerank+spelling+suggester+ml_reranker
+[2026-06-25] Phase 7 done: index.html+style.css+app.js+dashboard
