@@ -127,3 +127,4 @@
 [2026-06-23] Result count: '42 results (3.4 ms)' format
 [2026-06-24] Keyboard nav: arrow keys cycle autocomplete, Enter submits
 [2026-06-24] Escape key closes autocomplete dropdown
+[2026-06-25] Phase 7 complete: full responsive dark-mode UI
