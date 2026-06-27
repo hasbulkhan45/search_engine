@@ -69,3 +69,4 @@ def test_snippet_generator():
     snip = gen.generate(body, ["blazing", "fast"])
     assert snip.has_match is True
     assert "blazing" in snip.text
+# Test: ctypes C fallback lifecycle
