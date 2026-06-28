@@ -80,3 +80,4 @@ ParsedQuery QueryParser::parse(const std::string& query_str) const {
 }
 
 } // namespace search
+// Syntax: warn on unmatched quotes
