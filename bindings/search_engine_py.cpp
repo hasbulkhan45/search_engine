@@ -100,3 +100,4 @@ PYBIND11_MODULE(search_engine_native, m) {
 // Docs: informative docstrings
 // Overrides: field boost weights
 // Pickle: Document __getstate__/__setstate__
+// Buffer: zero-copy numpy array export
