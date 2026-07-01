@@ -25,3 +25,4 @@ private:
 
 } // namespace search
 // Metrics: hit_count and miss_count
+// TTL: auto-evict queries older than 300s
