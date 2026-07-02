@@ -66,3 +66,4 @@ Snippet SnippetGenerator::generate(const std::string& document_text,
 
 } // namespace search
 // Perf: rfind for sentence boundaries
+// Style: customizable highlight open/close tags
