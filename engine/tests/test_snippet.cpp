@@ -28,3 +28,4 @@ TEST_CASE("SnippetGenerator fallback when no term matches", "[snippet]") {
     REQUIRE_FALSE(snip.has_match);
     REQUIRE(snip.text == "Short text with no match.");
 }
+// Test: <mark> highlight tags
