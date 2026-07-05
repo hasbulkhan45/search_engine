@@ -48,3 +48,4 @@ void QueryCache::clear() {
 
 } // namespace search
 // Normalize: sort tokens before key hash
+// Memory: move semantics on cache put
