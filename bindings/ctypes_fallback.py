@@ -32,3 +32,4 @@ class NativeCEngine:
         if self.lib and self._handle:
             self.lib.search_engine_index_free(self._handle)
 # Helper: paginate_results()
+# Fluent API: QueryBuilder.add_term().and_phrase()
