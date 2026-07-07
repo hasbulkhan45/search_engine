@@ -33,3 +33,4 @@ std::vector<std::string> QueryPlanner::optimize_term_order(const std::vector<std
 } // namespace search
 // Optimization: prefix wildcard pruning
 // Safety: lock index while inspecting costs
+// Model: estimate cost = sum(df_i)
