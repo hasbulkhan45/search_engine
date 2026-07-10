@@ -102,3 +102,4 @@ PYBIND11_MODULE(search_engine_native, m) {
 // Pickle: Document __getstate__/__setstate__
 // Buffer: zero-copy numpy array export
 // Concurrency: py::gil_scoped_release
+// Phase 4 complete
