@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  search-engine:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=production
+      - API_KEY=secret-token-key
+      - DB_PATH=/app/data/search_engine.db
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
