@@ -103,3 +103,4 @@ def index_single_document(req: DocumentIndexRequest):
     tokens = tokenizer.tokenize(doc.full_text())
     native_index.add_document(doc, tokens)
     return {"status": "indexed", "doc_id": doc_id}
+# Tracing: assign UUID request_id
