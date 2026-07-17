@@ -104,3 +104,4 @@ def index_single_document(req: DocumentIndexRequest):
     native_index.add_document(doc, tokens)
     return {"status": "indexed", "doc_id": doc_id}
 # Tracing: assign UUID request_id
+# OpenAPI: route tags and doc summaries
