@@ -105,3 +105,4 @@ def index_single_document(req: DocumentIndexRequest):
     return {"status": "indexed", "doc_id": doc_id}
 # Tracing: assign UUID request_id
 # OpenAPI: route tags and doc summaries
+# Performance: GZipMiddleware minimum_size=500
