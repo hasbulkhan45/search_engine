@@ -31,3 +31,4 @@ class IndexStatsResponse(BaseModel):
     doc_count: int
     vocab_size: int
     avg_doc_len: float
+# ES: format response with hits.total.value
