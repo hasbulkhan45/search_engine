@@ -107,3 +107,4 @@ def index_single_document(req: DocumentIndexRequest):
 # OpenAPI: route tags and doc summaries
 # Performance: GZipMiddleware minimum_size=500
 # Crawler: background task trigger
+# Crawler: live page count and queue depth
