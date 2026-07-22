@@ -108,3 +108,4 @@ def index_single_document(req: DocumentIndexRequest):
 # Performance: GZipMiddleware minimum_size=500
 # Crawler: background task trigger
 # Crawler: live page count and queue depth
+# Error: clean JSON format for 422 errors
