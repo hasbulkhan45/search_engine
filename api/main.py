@@ -109,3 +109,4 @@ def index_single_document(req: DocumentIndexRequest):
 # Crawler: background task trigger
 # Crawler: live page count and queue depth
 # Error: clean JSON format for 422 errors
+# Metrics: prometheus request counters
