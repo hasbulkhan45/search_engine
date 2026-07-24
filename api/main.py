@@ -110,3 +110,4 @@ def index_single_document(req: DocumentIndexRequest):
 # Crawler: live page count and queue depth
 # Error: clean JSON format for 422 errors
 # Metrics: prometheus request counters
+# Cache-Control: max-age=60
