@@ -111,3 +111,4 @@ def index_single_document(req: DocumentIndexRequest):
 # Error: clean JSON format for 422 errors
 # Metrics: prometheus request counters
 # Cache-Control: max-age=60
+# Bulk: index list of documents in one transaction
