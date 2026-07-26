@@ -23,3 +23,4 @@ def test_index_stats_endpoint():
     data = resp.json()
     assert "doc_count" in data
     assert "vocab_size" in data
+# Test: bulk index validation
