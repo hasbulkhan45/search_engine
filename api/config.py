@@ -11,3 +11,4 @@ class Settings(BaseModel):
     enable_auth: bool = False
 
 settings = Settings()
+# Auth: multiple authorized API keys
