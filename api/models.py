@@ -32,3 +32,4 @@ class IndexStatsResponse(BaseModel):
     vocab_size: int
     avg_doc_len: float
 # ES: format response with hits.total.value
+# Filter: domain filter in SearchQueryRequest
