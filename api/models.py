@@ -33,3 +33,4 @@ class IndexStatsResponse(BaseModel):
     avg_doc_len: float
 # ES: format response with hits.total.value
 # Filter: domain filter in SearchQueryRequest
+# Sort: sort_by parameter
