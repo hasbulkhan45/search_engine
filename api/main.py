@@ -112,3 +112,4 @@ def index_single_document(req: DocumentIndexRequest):
 # Metrics: prometheus request counters
 # Cache-Control: max-age=60
 # Bulk: index list of documents in one transaction
+# Score: min-max normalization
