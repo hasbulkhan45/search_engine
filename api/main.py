@@ -113,3 +113,4 @@ def index_single_document(req: DocumentIndexRequest):
 # Cache-Control: max-age=60
 # Bulk: index list of documents in one transaction
 # Score: min-max normalization
+# Lifecycle: on_event shutdown handler
