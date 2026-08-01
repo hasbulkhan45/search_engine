@@ -114,3 +114,4 @@ def index_single_document(req: DocumentIndexRequest):
 # Bulk: index list of documents in one transaction
 # Score: min-max normalization
 # Lifecycle: on_event shutdown handler
+# Error: 404 endpoint discovery
