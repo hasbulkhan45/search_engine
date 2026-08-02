@@ -115,3 +115,4 @@ def index_single_document(req: DocumentIndexRequest):
 # Score: min-max normalization
 # Lifecycle: on_event shutdown handler
 # Error: 404 endpoint discovery
+# Health: verify SQLite file accessibility
