@@ -12,3 +12,4 @@ class Settings(BaseModel):
 
 settings = Settings()
 # Auth: multiple authorized API keys
+# Logging: JSON format log formatter
