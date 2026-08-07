@@ -34,3 +34,4 @@ class IndexStatsResponse(BaseModel):
 # ES: format response with hits.total.value
 # Filter: domain filter in SearchQueryRequest
 # Sort: sort_by parameter
+# Spelling: suggestion field
