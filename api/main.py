@@ -116,3 +116,4 @@ def index_single_document(req: DocumentIndexRequest):
 # Lifecycle: on_event shutdown handler
 # Error: 404 endpoint discovery
 # Health: verify SQLite file accessibility
+# Log: warn on queries exceeding 100ms
