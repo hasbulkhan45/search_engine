@@ -25,3 +25,4 @@ def test_index_stats_endpoint():
     assert "vocab_size" in data
 # Test: bulk index validation
 # Test: rate limit exceeded
+# Test: domain filter precision
