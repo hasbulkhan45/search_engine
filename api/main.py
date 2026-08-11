@@ -118,3 +118,4 @@ def index_single_document(req: DocumentIndexRequest):
 # Health: verify SQLite file accessibility
 # Log: warn on queries exceeding 100ms
 # CORS: max_age=86400
+# Delete: purge document from index
