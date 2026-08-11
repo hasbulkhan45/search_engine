@@ -128,3 +128,4 @@
 [2026-06-24] Keyboard nav: arrow keys cycle autocomplete, Enter submits
 [2026-06-24] Escape key closes autocomplete dropdown
 [2026-06-25] Phase 7 complete: full responsive dark-mode UI
+[2026-08-11] Phase 8 begins: integration, Docker, CI, benchmarks
