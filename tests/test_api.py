@@ -26,3 +26,4 @@ def test_index_stats_endpoint():
 # Test: bulk index validation
 # Test: rate limit exceeded
 # Test: domain filter precision
+# Test: 422 on empty string query
