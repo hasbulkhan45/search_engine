@@ -131,3 +131,4 @@
 [2026-08-11] Phase 8 begins: integration, Docker, CI, benchmarks
 [2026-08-11] Dockerfile: multi-stage build, builder+runtime stages
 [2026-08-12] docker-compose: api + crawler services on shared network
+[2026-08-12] Volume: ./search_engine.db:/app/search_engine.db
