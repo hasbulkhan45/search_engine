@@ -132,3 +132,4 @@
 [2026-08-11] Dockerfile: multi-stage build, builder+runtime stages
 [2026-08-12] docker-compose: api + crawler services on shared network
 [2026-08-12] Volume: ./search_engine.db:/app/search_engine.db
+[2026-08-13] CI: ci/ci.yml runs cmake+ctest then pytest on every push
