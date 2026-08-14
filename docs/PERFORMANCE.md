@@ -6,3 +6,4 @@
 [2026-04-12] Crawler: ~5 pages/sec with 1s politeness delay
 [2026-04-28] API: median search response time 3.4ms on local
 [2026-05-07] PageRank on 10K nodes: converges in 47 iterations, 12ms
+[2026-08-14] E2E benchmark: 85K docs/sec index, <15µs query, 3.4ms API
