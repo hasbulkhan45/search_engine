@@ -134,3 +134,4 @@
 [2026-08-12] Volume: ./search_engine.db:/app/search_engine.db
 [2026-08-13] CI: ci/ci.yml runs cmake+ctest then pytest on every push
 [2026-08-13] CI matrix: ubuntu-22.04, Python 3.11
+[2026-08-14] benchmark.py measures indexing, BM25 query, and API latency
