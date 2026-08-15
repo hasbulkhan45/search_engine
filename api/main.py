@@ -119,3 +119,4 @@ def index_single_document(req: DocumentIndexRequest):
 # Log: warn on queries exceeding 100ms
 # CORS: max_age=86400
 # Delete: purge document from index
+# Phase 5 complete
