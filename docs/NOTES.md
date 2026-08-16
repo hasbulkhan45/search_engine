@@ -138,3 +138,4 @@
 [2026-08-15] seed_data.py: 20 canonical IR/CS documents pre-loaded
 [2026-08-15] Seed topics: tf-idf, bm25, pagerank, compression, tokenizer...
 [2026-08-16] E2E test: crawl → index → search → verify result
+[2026-08-16] E2E uses in-memory SQLite and mock HTTP responses
