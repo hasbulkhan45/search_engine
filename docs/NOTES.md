@@ -141,3 +141,4 @@
 [2026-08-16] E2E uses in-memory SQLite and mock HTTP responses
 [2026-08-17] 26 total test suites: 9 C++ Catch2 + 17 Python pytest
 [2026-08-17] All tests pass: 0 failures, 0 skips across all suites
+[2026-08-18] CHANGELOG.md documents all major feature additions
