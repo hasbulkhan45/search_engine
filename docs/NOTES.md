@@ -143,3 +143,4 @@
 [2026-08-17] All tests pass: 0 failures, 0 skips across all suites
 [2026-08-18] CHANGELOG.md documents all major feature additions
 [2026-08-18] v1.0.0 release: all 8 phases complete
+[2026-08-20] requirements.txt: fastapi, uvicorn, aiohttp, beautifulsoup4
