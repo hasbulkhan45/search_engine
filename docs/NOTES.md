@@ -146,3 +146,4 @@
 [2026-08-20] requirements.txt: fastapi, uvicorn, aiohttp, beautifulsoup4
 [2026-08-20] pybind11 version pinned to >=2.11 for C++17 support
 [2026-08-21] httpx pinned for starlette testclient compatibility
+[2026-08-21] pytest-asyncio required for async API test functions
