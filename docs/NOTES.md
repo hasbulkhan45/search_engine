@@ -145,3 +145,4 @@
 [2026-08-18] v1.0.0 release: all 8 phases complete
 [2026-08-20] requirements.txt: fastapi, uvicorn, aiohttp, beautifulsoup4
 [2026-08-20] pybind11 version pinned to >=2.11 for C++17 support
+[2026-08-21] httpx pinned for starlette testclient compatibility
