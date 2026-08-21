@@ -44,3 +44,4 @@ class PageRank:
                 break
 
         return rank
+# Config: configurable damping factor
