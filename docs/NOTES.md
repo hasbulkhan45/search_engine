@@ -148,3 +148,4 @@
 [2026-08-21] httpx pinned for starlette testclient compatibility
 [2026-08-21] pytest-asyncio required for async API test functions
 [2026-08-22] SQLite WAL checkpoint runs on DocumentStore.close()
+[2026-08-22] FTS integration: custom engine pipes to SQLite for storage only
