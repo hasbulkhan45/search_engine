@@ -45,3 +45,4 @@ class PageRank:
 
         return rank
 # Config: configurable damping factor
+# Matrix: export sparse adjacency format
