@@ -150,3 +150,4 @@
 [2026-08-22] SQLite WAL checkpoint runs on DocumentStore.close()
 [2026-08-22] FTS integration: custom engine pipes to SQLite for storage only
 [2026-08-23] search_engine.db pre-seeded with 20 IR/CS documents
+[2026-08-23] Run scripts/seed_data.py to re-seed from scratch
