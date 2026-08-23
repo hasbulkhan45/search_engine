@@ -41,3 +41,4 @@ class SpellingCorrector:
 
     def _edits2(self, word: str):
         return set(e2 for e1 in self._edits1(word) for e2 in self._edits1(e1))
+# Distance: keyboard layout typo weighting
