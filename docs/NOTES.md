@@ -151,3 +151,4 @@
 [2026-08-22] FTS integration: custom engine pipes to SQLite for storage only
 [2026-08-23] search_engine.db pre-seeded with 20 IR/CS documents
 [2026-08-23] Run scripts/seed_data.py to re-seed from scratch
+[2026-08-24] API startup: loads C++ index from disk on FastAPI lifespan
