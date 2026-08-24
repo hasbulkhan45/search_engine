@@ -43,3 +43,4 @@ class QuerySuggester:
             results.append((node.frequency, node.query))
         for child in node.children.values():
             self._dfs(child, results)
+# Cache: prefix cache for len <= 3
