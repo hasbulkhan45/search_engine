@@ -8,3 +8,4 @@
 [2026-05-07] PageRank on 10K nodes: converges in 47 iterations, 12ms
 [2026-08-14] E2E benchmark: 85K docs/sec index, <15µs query, 3.4ms API
 [2026-08-25] Memory: 1M indexed docs → ~850MB RAM (uncompressed)
+[2026-08-25] Compressed index: ~320MB for 1M docs with delta+varint
