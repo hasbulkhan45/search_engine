@@ -42,3 +42,4 @@ class MLReranker:
 
         scored.sort(key=lambda x: x["ml_score"], reverse=True)
         return scored
+# CTR: integrate click counts into feature vector
