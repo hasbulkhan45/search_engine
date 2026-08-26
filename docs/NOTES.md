@@ -153,3 +153,4 @@
 [2026-08-23] Run scripts/seed_data.py to re-seed from scratch
 [2026-08-24] API startup: loads C++ index from disk on FastAPI lifespan
 [2026-08-24] Index saved to search_index.bin on graceful shutdown
+[2026-08-26] SearchResult struct: url, title, snippet, score, rank
