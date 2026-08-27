@@ -155,3 +155,4 @@
 [2026-08-24] Index saved to search_index.bin on graceful shutdown
 [2026-08-26] SearchResult struct: url, title, snippet, score, rank
 [2026-08-26] Rank field is 1-indexed position in result set
+[2026-08-27] Snippet generation: finds first query term, expands window
