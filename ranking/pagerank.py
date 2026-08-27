@@ -46,3 +46,4 @@ class PageRank:
         return rank
 # Config: configurable damping factor
 # Matrix: export sparse adjacency format
+# Telemetry: log iteration count and delta
