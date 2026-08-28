@@ -157,3 +157,4 @@
 [2026-08-26] Rank field is 1-indexed position in result set
 [2026-08-27] Snippet generation: finds first query term, expands window
 [2026-08-27] Snippet fallback: first 160 chars of body if no term found
+[2026-08-28] Query cache: stores top-10 results for each unique query
