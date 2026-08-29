@@ -35,3 +35,4 @@ def test_ml_reranker():
     ranked = reranker.rerank("python", hits)
     assert len(ranked) == 2
     assert "ml_score" in ranked[0]
+# Test: disconnected subgraphs
