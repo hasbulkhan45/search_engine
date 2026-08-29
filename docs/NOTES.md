@@ -159,3 +159,4 @@
 [2026-08-27] Snippet fallback: first 160 chars of body if no term found
 [2026-08-28] Query cache: stores top-10 results for each unique query
 [2026-08-28] Cache TTL: 5 minutes for query results
+[2026-08-29] ML reranker: scores normalized before linear combination
