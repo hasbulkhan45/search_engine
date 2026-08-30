@@ -161,3 +161,4 @@
 [2026-08-28] Cache TTL: 5 minutes for query results
 [2026-08-29] ML reranker: scores normalized before linear combination
 [2026-08-29] Future: click-through feedback loop for weight tuning
+[2026-08-30] PageRank initialized uniform: 1/N for all N nodes
