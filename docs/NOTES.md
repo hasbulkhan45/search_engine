@@ -163,3 +163,4 @@
 [2026-08-29] Future: click-through feedback loop for weight tuning
 [2026-08-30] PageRank initialized uniform: 1/N for all N nodes
 [2026-08-30] PageRank convergence check: L1 norm diff < 1e-6
+[2026-08-31] SpellingCorrector vocab built from all indexed terms
