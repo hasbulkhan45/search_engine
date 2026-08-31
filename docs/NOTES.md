@@ -164,3 +164,4 @@
 [2026-08-30] PageRank initialized uniform: 1/N for all N nodes
 [2026-08-30] PageRank convergence check: L1 norm diff < 1e-6
 [2026-08-31] SpellingCorrector vocab built from all indexed terms
+[2026-08-31] Spelling: max edit distance 2 for rare terms
