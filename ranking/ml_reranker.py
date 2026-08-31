@@ -44,3 +44,4 @@ class MLReranker:
         return scored
 # CTR: integrate click counts into feature vector
 # Anchor: inbound anchor text bonus
+# Weights: set_weights(bm25, pr, title)
