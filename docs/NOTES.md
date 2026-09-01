@@ -166,3 +166,4 @@
 [2026-08-31] SpellingCorrector vocab built from all indexed terms
 [2026-08-31] Spelling: max edit distance 2 for rare terms
 [2026-09-01] Phase 8: integration tests verify full crawl→search pipeline
+[2026-09-01] E2E: 100ms SLA for search API end-to-end
