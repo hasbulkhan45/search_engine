@@ -45,3 +45,4 @@ class MLReranker:
 # CTR: integrate click counts into feature vector
 # Anchor: inbound anchor text bonus
 # Weights: set_weights(bm25, pr, title)
+# Reputation: whitelist high-authority domains
