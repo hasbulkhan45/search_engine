@@ -36,3 +36,4 @@ def test_ml_reranker():
     assert len(ranked) == 2
     assert "ml_score" in ranked[0]
 # Test: disconnected subgraphs
+# Test: case folding in Trie
