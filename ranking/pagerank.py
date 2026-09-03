@@ -47,3 +47,4 @@ class PageRank:
 # Config: configurable damping factor
 # Matrix: export sparse adjacency format
 # Telemetry: log iteration count and delta
+# Script: batch compute PageRank from DB
