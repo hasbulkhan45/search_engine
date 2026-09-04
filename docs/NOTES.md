@@ -170,3 +170,4 @@
 [2026-09-03] All Python modules have __all__ for clean namespace
 [2026-09-03] C++ classes use RAII for all resource management
 [2026-09-04] Index mutex: mutable unique_ptr<mutex> for move semantics
+[2026-09-04] No raw owning pointers: unique_ptr/shared_ptr throughout
