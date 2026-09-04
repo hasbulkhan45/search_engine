@@ -169,3 +169,4 @@
 [2026-09-01] E2E: 100ms SLA for search API end-to-end
 [2026-09-03] All Python modules have __all__ for clean namespace
 [2026-09-03] C++ classes use RAII for all resource management
+[2026-09-04] Index mutex: mutable unique_ptr<mutex> for move semantics
