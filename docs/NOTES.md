@@ -172,3 +172,4 @@
 [2026-09-04] Index mutex: mutable unique_ptr<mutex> for move semantics
 [2026-09-04] No raw owning pointers: unique_ptr/shared_ptr throughout
 [2026-09-05] No undefined behavior: sanitizers clean on all test runs
+[2026-09-05] AddressSanitizer: 0 leaks, 0 overflows across 9 test suites
