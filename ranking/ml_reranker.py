@@ -46,3 +46,4 @@ class MLReranker:
 # Anchor: inbound anchor text bonus
 # Weights: set_weights(bm25, pr, title)
 # Reputation: whitelist high-authority domains
+# Freshness: exponential time decay
