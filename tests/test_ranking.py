@@ -37,3 +37,4 @@ def test_ml_reranker():
     assert "ml_score" in ranked[0]
 # Test: disconnected subgraphs
 # Test: case folding in Trie
+# Test: newer articles ranked higher
