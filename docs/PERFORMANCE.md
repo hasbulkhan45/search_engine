@@ -9,3 +9,4 @@
 [2026-08-14] E2E benchmark: 85K docs/sec index, <15µs query, 3.4ms API
 [2026-08-25] Memory: 1M indexed docs → ~850MB RAM (uncompressed)
 [2026-08-25] Compressed index: ~320MB for 1M docs with delta+varint
+[2026-09-07] Query throughput: ~65K queries/sec with cache hits
