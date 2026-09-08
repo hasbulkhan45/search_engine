@@ -176,3 +176,4 @@
 [2026-09-06] -Wall -Wextra -Wpedantic enabled; 0 warnings in Release
 [2026-09-06] Clang-tidy: modernize-use-auto, readability-braces rules
 [2026-09-08] API server gracefully handles SIGTERM: saves index then exits
+[2026-09-08] Healthcheck probe in docker-compose: curl /health
