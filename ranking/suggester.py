@@ -45,3 +45,4 @@ class QuerySuggester:
             self._dfs(child, results)
 # Cache: prefix cache for len <= 3
 # Prune: remove low-frequency queries
+# Persistence: dump/load Trie JSON
