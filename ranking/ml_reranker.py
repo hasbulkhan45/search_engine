@@ -47,3 +47,4 @@ class MLReranker:
 # Weights: set_weights(bm25, pr, title)
 # Reputation: whitelist high-authority domains
 # Freshness: exponential time decay
+# Training: log TSV feature vectors
