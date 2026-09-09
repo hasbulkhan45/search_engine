@@ -178,3 +178,4 @@
 [2026-09-08] API server gracefully handles SIGTERM: saves index then exits
 [2026-09-08] Healthcheck probe in docker-compose: curl /health
 [2026-09-09] Log format: JSON structured logging in production
+[2026-09-09] Log levels: DEBUG (dev), INFO (staging), WARNING (prod)
