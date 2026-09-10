@@ -180,3 +180,4 @@
 [2026-09-09] Log format: JSON structured logging in production
 [2026-09-09] Log levels: DEBUG (dev), INFO (staging), WARNING (prod)
 [2026-09-10] Env var: LOG_LEVEL=DEBUG shows query parse tree
+[2026-09-10] Env var: DB_PATH=:memory: for ephemeral test databases
