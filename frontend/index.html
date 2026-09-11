@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antigravity Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo">
+                <span class="logo-accent">Anti</span>gravity
+            </div>
+            <nav class="header-nav">
+                <a href="dashboard.html" class="nav-link">Dashboard</a>
+                <button id="themeToggle" class="theme-btn" aria-label="Toggle Theme">🌙</button>
+            </nav>
+        </header>
+
+        <!-- Search Hero Section -->
+        <main class="main-content">
+            <section id="heroSection" class="hero-section">
+                <h1 class="hero-title">Discover with <span class="gradient-text">Precision</span></h1>
+                <p class="hero-subtitle">High-performance C++17 indexed search engine with BM25 probabilistic ranking.</p>
+                
+                <div class="search-box-container">
+                    <form id="searchForm" class="search-form">
+                        <div class="input-wrapper">
+                            <span class="search-icon">🔍</span>
+                            <input type="text" id="searchInput" placeholder="Search documentation, topics, or code..." autocomplete="off" autofocus>
+                            <button type="button" id="clearBtn" class="clear-btn hidden">&times;</button>
+                        </div>
+                        <button type="submit" class="search-submit-btn">Search</button>
+                    </form>
+                    <!-- Autocomplete dropdown -->
+                    <div id="autocompleteDropdown" class="autocomplete-dropdown hidden"></div>
+                </div>
+
+                <!-- Quick tags -->
+                <div class="quick-tags">
+                    <span class="tag-label">Popular:</span>
+                    <button class="tag-btn" data-query="distributed systems">Distributed Systems</button>
+                    <button class="tag-btn" data-query="inverted index">Inverted Index</button>
+                    <button class="tag-btn" data-query="BM25 ranking">BM25 Ranking</button>
+                    <button class="tag-btn" data-query="Python crawler">Python Crawler</button>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section id="resultsSection" class="results-section hidden">
+                <div class="results-meta">
+                    <span id="resultsStats" class="results-stats">Showing 0 results</span>
+                    <div class="ranker-selector">
+                        <label for="rankerSelect">Scoring:</label>
+                        <select id="rankerSelect">
+                            <option value="bm25" selected>BM25 Ranker</option>
+                            <option value="tfidf">TF-IDF</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="resultsList" class="results-list"></div>
+
+                <div id="pagination" class="pagination-container hidden">
+                    <button id="prevPageBtn" class="page-btn" disabled>&larr; Previous</button>
+                    <span id="pageIndicator" class="page-indicator">Page 1</span>
+                    <button id="nextPageBtn" class="page-btn">Next &rarr;</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>Powered by C++17 Core Engine & Python 3.10+ | Antigravity IDE</p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
