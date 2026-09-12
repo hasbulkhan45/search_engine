@@ -184,3 +184,4 @@
 [2026-09-11] API_KEY default 'dev-key-123' — change in production
 [2026-09-11] Never commit real API keys; use .env file + .gitignore
 [2026-09-12] .gitignore: *.so, build/, *.db, *.pyc, __pycache__
+[2026-09-12] .cache/ excluded to avoid storing aiohttp cache in git
