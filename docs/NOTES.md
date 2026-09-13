@@ -186,3 +186,4 @@
 [2026-09-12] .gitignore: *.so, build/, *.db, *.pyc, __pycache__
 [2026-09-12] .cache/ excluded to avoid storing aiohttp cache in git
 [2026-09-13] 300 total git commits across 258 calendar days
+[2026-09-13] Commit convention: type(scope): description
