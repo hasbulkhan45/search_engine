@@ -188,3 +188,4 @@
 [2026-09-13] 300 total git commits across 258 calendar days
 [2026-09-13] Commit convention: type(scope): description
 [2026-09-14] Types: feat, fix, docs, perf, refactor, test, chore
+[2026-09-14] Scopes: engine, crawler, api, ranking, frontend, docs
