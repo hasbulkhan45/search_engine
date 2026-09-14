@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engine Dashboard - Antigravity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo"><span class="logo-accent">Anti</span>gravity Dashboard</div>
+            <nav class="header-nav">
+                <a href="index.html" class="nav-link">&larr; Back to Search</a>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <h1 class="hero-title" style="font-size: 2.2rem; margin-bottom: 24px;">Engine Analytics</h1>
+            <div class="quick-tags" style="justify-content: flex-start; margin-bottom: 30px;">
+                <div class="result-card" style="flex: 1; text-align: center;">
+                    <div class="result-domain">DOCUMENTS INDEXED</div>
+                    <h2 id="dashDocCount" style="font-size: 2.5rem; margin: 10px 0;">--</h2>
+                </div>
+                <div class="result-card" style="flex: 1; text-align: center;">
+                    <div class="result-domain">VOCABULARY SIZE</div>
+                    <h2 id="dashVocabSize" style="font-size: 2.5rem; margin: 10px 0;">--</h2>
+                </div>
+                <div class="result-card" style="flex: 1; text-align: center;">
+                    <div class="result-domain">AVG DOC LENGTH</div>
+                    <h2 id="dashAvgDocLen" style="font-size: 2.5rem; margin: 10px 0;">--</h2>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+        fetch('/api/v1/index/stats')
+            .then(r => r.json())
+            .then(data => {
+                document.getElementById('dashDocCount').textContent = data.doc_count;
+                document.getElementById('dashVocabSize').textContent = data.vocab_size;
+                document.getElementById('dashAvgDocLen').textContent = data.avg_doc_len;
+            });
+    </script>
+</body>
+</html>
