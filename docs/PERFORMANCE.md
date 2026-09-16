@@ -11,3 +11,4 @@
 [2026-08-25] Compressed index: ~320MB for 1M docs with delta+varint
 [2026-09-07] Query throughput: ~65K queries/sec with cache hits
 [2026-09-07] Cold cache: ~4.2K queries/sec (disk-backed index)
+[2026-09-16] Tokenizer: 12M tokens/sec on 8KB average pages
