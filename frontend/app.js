@@ -161,3 +161,4 @@ document.addEventListener("DOMContentLoaded", () => {
         `).join("");
     }
 });
+// Feature: remember recent searches in localStorage
