@@ -190,3 +190,4 @@
 [2026-09-14] Types: feat, fix, docs, perf, refactor, test, chore
 [2026-09-14] Scopes: engine, crawler, api, ranking, frontend, docs
 [2026-09-15] README updated with full architecture, API ref, and setup
+[2026-09-17] Porter Stemmer: 5 steps handle 99% of English inflections
