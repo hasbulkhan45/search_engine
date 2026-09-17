@@ -191,3 +191,4 @@
 [2026-09-14] Scopes: engine, crawler, api, ranking, frontend, docs
 [2026-09-15] README updated with full architecture, API ref, and setup
 [2026-09-17] Porter Stemmer: 5 steps handle 99% of English inflections
+[2026-09-17] Stemmer test: 'running' → 'run', 'generously' → 'generous'
