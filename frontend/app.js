@@ -162,3 +162,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 // Feature: remember recent searches in localStorage
+// Feature: copy URL to clipboard
