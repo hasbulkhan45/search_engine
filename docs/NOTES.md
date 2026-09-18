@@ -193,3 +193,4 @@
 [2026-09-17] Porter Stemmer: 5 steps handle 99% of English inflections
 [2026-09-17] Stemmer test: 'running' → 'run', 'generously' → 'generous'
 [2026-09-18] Tokenizer test: handles Unicode, emoji stripped as non-alpha
+[2026-09-18] Numbers: by default included in tokens (e.g. 'web2.0'→'web20')
