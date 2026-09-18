@@ -192,3 +192,4 @@
 [2026-09-15] README updated with full architecture, API ref, and setup
 [2026-09-17] Porter Stemmer: 5 steps handle 99% of English inflections
 [2026-09-17] Stemmer test: 'running' → 'run', 'generously' → 'generous'
+[2026-09-18] Tokenizer test: handles Unicode, emoji stripped as non-alpha
