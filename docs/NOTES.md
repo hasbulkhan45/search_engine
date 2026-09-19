@@ -195,3 +195,4 @@
 [2026-09-18] Tokenizer test: handles Unicode, emoji stripped as non-alpha
 [2026-09-18] Numbers: by default included in tokens (e.g. 'web2.0'→'web20')
 [2026-09-19] Stop words configurable: pass custom list to Tokenizer::Config
+[2026-09-19] Default stop words: the, a, an, is, in, of, to, for...
