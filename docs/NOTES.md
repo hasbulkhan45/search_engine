@@ -198,3 +198,4 @@
 [2026-09-19] Default stop words: the, a, an, is, in, of, to, for...
 [2026-09-20] Index persistence: write then atomically rename for safety
 [2026-09-20] .tmp file used during write, renamed on success
+[2026-09-21] CRC32 mismatch on load: raises IndexCorruptionError
