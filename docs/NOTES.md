@@ -200,3 +200,4 @@
 [2026-09-20] .tmp file used during write, renamed on success
 [2026-09-21] CRC32 mismatch on load: raises IndexCorruptionError
 [2026-09-21] Recovery: re-index from SQLite DocumentStore on corruption
+[2026-09-22] Multi-process safety: file lock on index write
