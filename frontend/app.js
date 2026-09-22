@@ -164,3 +164,4 @@ document.addEventListener("DOMContentLoaded", () => {
 // Feature: remember recent searches in localStorage
 // Feature: copy URL to clipboard
 // UX: window.scrollTo({top: 0, behavior: 'smooth'})
+// Badge: latency pill
