@@ -201,3 +201,4 @@
 [2026-09-21] CRC32 mismatch on load: raises IndexCorruptionError
 [2026-09-21] Recovery: re-index from SQLite DocumentStore on corruption
 [2026-09-22] Multi-process safety: file lock on index write
+[2026-09-22] flock() used on Linux; portlock fallback on macOS
