@@ -165,3 +165,4 @@ document.addEventListener("DOMContentLoaded", () => {
 // Feature: copy URL to clipboard
 // UX: window.scrollTo({top: 0, behavior: 'smooth'})
 // Badge: latency pill
+// Theme: window.matchMedia('(prefers-color-scheme: dark)')
