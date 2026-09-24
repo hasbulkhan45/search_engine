@@ -204,3 +204,4 @@
 [2026-09-22] flock() used on Linux; portlock fallback on macOS
 [2026-09-23] BM25 query handles empty query: returns empty results
 [2026-09-23] Query normalization: lowercase, strip extra whitespace
+[2026-09-24] Result deduplication: skip docs with same SimHash
