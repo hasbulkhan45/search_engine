@@ -209,3 +209,4 @@
 [2026-09-25] Snippet: highlight up to 5 distinct query terms
 [2026-09-25] Highlight: <em class='hl'> wrapping for CSS control
 [2026-09-26] Frontend: result URL displayed as breadcrumb path
+[2026-09-26] Breadcrumb: 'example.com › path › page' format
