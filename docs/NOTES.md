@@ -211,3 +211,4 @@
 [2026-09-26] Frontend: result URL displayed as breadcrumb path
 [2026-09-26] Breadcrumb: 'example.com › path › page' format
 [2026-09-27] Favicon: search magnifier emoji used as /favicon.ico
+[2026-09-27] Meta viewport: width=device-width, initial-scale=1
