@@ -213,3 +213,4 @@
 [2026-09-27] Favicon: search magnifier emoji used as /favicon.ico
 [2026-09-27] Meta viewport: width=device-width, initial-scale=1
 [2026-09-28] Accessibility: ARIA labels on search input and buttons
+[2026-09-28] Focus styles: visible outline on all interactive elements
