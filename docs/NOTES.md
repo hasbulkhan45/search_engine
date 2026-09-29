@@ -215,3 +215,4 @@
 [2026-09-28] Accessibility: ARIA labels on search input and buttons
 [2026-09-28] Focus styles: visible outline on all interactive elements
 [2026-09-29] Print styles: hide nav, expand URLs for printed pages
+[2026-09-29] CSP header: script-src 'self' only in production
