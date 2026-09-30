@@ -13,3 +13,4 @@
 [2026-09-07] Cold cache: ~4.2K queries/sec (disk-backed index)
 [2026-09-16] Tokenizer: 12M tokens/sec on 8KB average pages
 [2026-09-16] Stemmer: 8M words/sec Porter algorithm
+[2026-09-30] Frontend: FCP < 1.2s on 4G connection
