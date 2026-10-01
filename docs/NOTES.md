@@ -217,3 +217,4 @@
 [2026-09-29] Print styles: hide nav, expand URLs for printed pages
 [2026-09-29] CSP header: script-src 'self' only in production
 [2026-10-01] JS bundle: single app.js file, no bundler required
+[2026-10-01] Total frontend payload: ~45KB (HTML+CSS+JS uncompressed)
