@@ -167,3 +167,4 @@ document.addEventListener("DOMContentLoaded", () => {
 // Badge: latency pill
 // Theme: window.matchMedia('(prefers-color-scheme: dark)')
 // Filter: site:domain.com search pill
+// Spellcheck: 'Did you mean ...?' prompt
