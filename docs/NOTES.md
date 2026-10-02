@@ -218,3 +218,4 @@
 [2026-09-29] CSP header: script-src 'self' only in production
 [2026-10-01] JS bundle: single app.js file, no bundler required
 [2026-10-01] Total frontend payload: ~45KB (HTML+CSS+JS uncompressed)
+[2026-10-02] API responses: gzip compressed by uvicorn middleware
