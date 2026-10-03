@@ -220,3 +220,4 @@
 [2026-10-01] Total frontend payload: ~45KB (HTML+CSS+JS uncompressed)
 [2026-10-02] API responses: gzip compressed by uvicorn middleware
 [2026-10-02] Search response p99: <50ms including ML reranking
+[2026-10-03] Rate limiter: sliding window, resets every 60s
