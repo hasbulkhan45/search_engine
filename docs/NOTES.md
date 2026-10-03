@@ -221,3 +221,4 @@
 [2026-10-02] API responses: gzip compressed by uvicorn middleware
 [2026-10-02] Search response p99: <50ms including ML reranking
 [2026-10-03] Rate limiter: sliding window, resets every 60s
+[2026-10-03] Rate limit headers: X-RateLimit-Remaining, X-RateLimit-Reset
