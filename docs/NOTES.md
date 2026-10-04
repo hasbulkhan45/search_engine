@@ -222,3 +222,4 @@
 [2026-10-02] Search response p99: <50ms including ML reranking
 [2026-10-03] Rate limiter: sliding window, resets every 60s
 [2026-10-03] Rate limit headers: X-RateLimit-Remaining, X-RateLimit-Reset
+[2026-10-04] Auth: API key validated via constant-time comparison
