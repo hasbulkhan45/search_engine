@@ -225,3 +225,4 @@
 [2026-10-04] Auth: API key validated via constant-time comparison
 [2026-10-04] HMAC not used (single-user dev mode); add JWT for production
 [2026-10-05] crawler: exponential backoff on 429/503 responses
+[2026-10-05] Max retries: 3; backoff multiplier: 2x starting at 1s
