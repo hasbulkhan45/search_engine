@@ -229,3 +229,4 @@
 [2026-10-06] Bloom filter false positives: < 1% at 1M URLs
 [2026-10-06] Bloom filter serialized to .bloom file for persistence
 [2026-10-07] DocumentStore.get_all_links() returns adjacency list
+[2026-10-07] PageRank uses adjacency list from get_all_links()
