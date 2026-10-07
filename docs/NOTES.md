@@ -228,3 +228,4 @@
 [2026-10-05] Max retries: 3; backoff multiplier: 2x starting at 1s
 [2026-10-06] Bloom filter false positives: < 1% at 1M URLs
 [2026-10-06] Bloom filter serialized to .bloom file for persistence
+[2026-10-07] DocumentStore.get_all_links() returns adjacency list
