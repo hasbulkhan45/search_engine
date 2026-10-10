@@ -234,3 +234,4 @@
 [2026-10-08] url_depth = 1/(path_depth+1) to prefer shallow URLs
 [2026-10-09] Reranker: scores stable across identical query reruns
 [2026-10-09] Python random seed fixed at 42 for test reproducibility
+[2026-10-10] All 17 Python pytest suites: 0 failures, 0 warnings
