@@ -238,3 +238,4 @@
 [2026-10-10] All 9 C++ Catch2 suites: 0 failures
 [2026-10-11] Project milestone: all phases complete and tested
 [2026-10-12] Documentation: README, CHANGELOG, CONTRIBUTING, API, PERF
+[2026-10-13] Semantic versioning: v1.0.0 is first stable release
