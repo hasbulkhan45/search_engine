@@ -239,3 +239,4 @@
 [2026-10-11] Project milestone: all phases complete and tested
 [2026-10-12] Documentation: README, CHANGELOG, CONTRIBUTING, API, PERF
 [2026-10-13] Semantic versioning: v1.0.0 is first stable release
+[2026-10-13] v1.1.0 planned: click feedback loop for ML reranker
