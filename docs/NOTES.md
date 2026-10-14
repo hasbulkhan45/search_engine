@@ -241,3 +241,4 @@
 [2026-10-13] Semantic versioning: v1.0.0 is first stable release
 [2026-10-13] v1.1.0 planned: click feedback loop for ML reranker
 [2026-10-14] v1.2.0 planned: multi-language tokenizer support
+[2026-10-14] v2.0.0 planned: distributed index across nodes
