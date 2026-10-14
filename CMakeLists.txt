@@ -55,3 +55,6 @@ enable_testing()
 add_subdirectory(engine/tests)
 # Phase 2 finalized
 # Target: install search_engine_native
+
+# Final C++ compiler flags optimization
+set(CMAKE_CXX_FLAGS_RELEASE "-O3 -march=native -DNDEBUG -flto")
