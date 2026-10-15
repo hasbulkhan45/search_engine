@@ -15,3 +15,4 @@
 [2026-09-16] Stemmer: 8M words/sec Porter algorithm
 [2026-09-30] Frontend: FCP < 1.2s on 4G connection
 [2026-09-30] LCP < 2.5s — passes Core Web Vitals threshold
+[2026-10-15] Stress test: 1000 concurrent users, p95 < 80ms
