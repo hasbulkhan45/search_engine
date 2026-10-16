@@ -243,3 +243,4 @@
 [2026-10-14] v1.2.0 planned: multi-language tokenizer support
 [2026-10-14] v2.0.0 planned: distributed index across nodes
 [2026-10-16] Memory-mapped index supports 64-bit address space (>4GB)
+[2026-10-16] Index on 100M docs: estimated 32GB RAM, 12GB compressed
