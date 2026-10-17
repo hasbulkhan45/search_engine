@@ -16,3 +16,4 @@
 [2026-05-10] Phase 6 done: pagerank+spelling+suggester+ml_reranker
 [2026-06-25] Phase 7 done: index.html+style.css+app.js+dashboard
 [2026-10-11] Final architecture: 8 phases, 6 layers, 26 test suites
+[2026-10-17] System proven: <15µs BM25, <15ms ML rerank, <4ms API
