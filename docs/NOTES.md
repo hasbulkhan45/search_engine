@@ -245,3 +245,4 @@
 [2026-10-16] Memory-mapped index supports 64-bit address space (>4GB)
 [2026-10-16] Index on 100M docs: estimated 32GB RAM, 12GB compressed
 [2026-10-17] Project complete: 8 phases, 6 months, full-stack search engine
+[2026-10-18] v1.0.0 released: all systems green, 26 tests passing
