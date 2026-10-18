@@ -60,6 +60,7 @@ public:
     size_t doc_count()   const { return docs_.size(); }
     size_t vocab_size()  const { return index_.size(); }
     double avg_doc_len() const;
+    size_t memory_bytes() const { return total_tokens_ * 12; }
 
     const Document*   get_doc(uint32_t id) const;
     const DocumentMap& documents()         const { return docs_; }
@@ -78,8 +79,3 @@ private:
 };
 
 } // namespace search
-// Accessor: get term frequency in document
-size_t memory_bytes() const { return total_tokens_ * 12; }
-// Batch: add_documents(const std::vector<Document>&)
-// Cursor: PostingCursor for skip list support
-// Opt: stride skip pointer

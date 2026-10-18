@@ -28,6 +28,15 @@ add_library(search_engine STATIC
     engine/src/query_parser.cpp
     engine/src/snippet.cpp
     engine/src/compression.cpp
+    engine/src/stop_words.cpp
+    engine/src/hash.cpp
+    engine/src/token_stream.cpp
+    engine/src/disk_index.cpp
+    engine/src/field_scorer.cpp
+    engine/src/segment_manager.cpp
+    engine/src/vacuum.cpp
+    engine/src/query_planner.cpp
+    engine/src/query_cache.cpp
 )
 
 target_include_directories(search_engine PUBLIC engine/include)

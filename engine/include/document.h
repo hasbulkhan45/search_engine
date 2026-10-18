@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 #include <cstdint>
+#include "hash.h"
 #include <ctime>
 #include <unordered_map>
 
