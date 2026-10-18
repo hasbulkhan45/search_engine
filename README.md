@@ -41,3 +41,7 @@ MIT
 - **Indexing Throughput**: ~85,000 documents / second
 - **Query Latency**: < 15 µs (microsecond) average latency per BM25 query
 - **Memory Footprint**: Compressed with Varint/Delta encoding (~12 bytes per posting)
+
+## Project Status
+
+Full stack project complete: C++17 Core Engine, Python Web Crawler, FastAPI REST API, PageRank ML Reranker, and Modern Frontend UI.
