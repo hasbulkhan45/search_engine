@@ -19,11 +19,13 @@ public:
         bool   apply_stemming   = true;
         size_t min_len          = 2;
         size_t max_len          = 64;
+        Config() = default;
     };
 
     using Filter = std::function<bool(const std::string&)>;
 
-    explicit Tokenizer(const Config& cfg = {});
+    Tokenizer();
+    explicit Tokenizer(const Config& cfg);
 
     /// Main entry point: text → token list
     std::vector<std::string> tokenize(const std::string& text) const;

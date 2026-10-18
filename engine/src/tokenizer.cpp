@@ -6,6 +6,8 @@
 
 namespace search {
 
+Tokenizer::Tokenizer() : Tokenizer(Config{}) {}
+
 Tokenizer::Tokenizer(const Config& cfg) : cfg_(cfg) {
     load_stopwords();
 }
